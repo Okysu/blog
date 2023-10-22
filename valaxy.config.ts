@@ -52,9 +52,9 @@ export default defineValaxyConfig<UserThemeConfig>({
   unocss: { safelist },
 
   hooks: {
-    "build:before": () => {
+    "build:before": async () => {
       console.log("start auto summary");
-      startAISummary();
+      await startAISummary();
     },
   },
 });
