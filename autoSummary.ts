@@ -77,7 +77,6 @@ export async function startAISummary() {
         consola.log(`Generated excerpt for ${post}`);
 
         data.excerpt = excerpt;
-        content = "\n" + excerpt + "\n<!-- more -->\n" + content;
 
         const newPostContent = matter.stringify(content, data);
         fs.writeFileSync(path.join(postsDir, post), newPostContent);
