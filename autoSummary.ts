@@ -40,7 +40,7 @@ const generateAutoSummary = async (content: string): Promise<string> => {
   const data = {
     model: "gpt-3.5-turbo",
     messages: prompt,
-    max_tokens: 250,
+    max_tokens: 300,
     temperature: 0.9,
     top_p: 1,
     frequency_penalty: 0,
