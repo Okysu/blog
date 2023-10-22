@@ -58,7 +58,7 @@ const generateAutoSummary = async (content: string): Promise<string> => {
   return result.choices[0].message.content;
 };
 
-export function startAISummary() {
+export async function startAISummary() {
   // get the current working directory
   var currentDir = process.cwd();
   var postsDir = path.join(currentDir, "pages/posts");
@@ -67,7 +67,8 @@ export function startAISummary() {
   var posts = fs.readdirSync(postsDir);
 
   // loop through each post
-  posts.forEach((post) => {
+  for (let i = 0; i < posts.length; i++) {
+    const post = posts[i];
     const postContent = fs.readFileSync(path.join(postsDir, post), "utf-8");
     const { data, content } = matter(postContent);
     // if data.excerpt is not present and data.excerpt_type is ai then generate the excerpt
@@ -75,20 +76,20 @@ export function startAISummary() {
 
     if (shouldGenerateExcerpt) {
       consola.log(`Generating excerpt for ${post}`);
-      generateAutoSummary(content)
-        .then((excerpt) => {
-          consola.log(`Generated excerpt for ${post}`);
-          // add the excerpt to the post data
-          data.excerpt = excerpt;
-          // add the excerpt to the post content
-          const newPostContent = matter.stringify(content, data);
-          // write the new post content to the file
-          fs.writeFileSync(path.join(postsDir, post), newPostContent);
-        })
-        .catch((error) => {
-          consola.error(`Error generating excerpt for ${post}`);
-          consola.error(error);
-        });
+      try {
+        const excerpt = await generateAutoSummary(content);
+        consola.log(`Generated excerpt for ${post}`);
+        // add the excerpt to the post data
+        data.excerpt = excerpt;
+        // add the excerpt to the post content
+        const newPostContent = matter.stringify(content, data);
+        // write the new post content to the file
+        fs.writeFileSync(path.join(postsDir, post), newPostContent);
+      } catch (error) {
+        consola.error(`Error generating excerpt for ${post}`);
+        consola.error(error);
+      }
     }
-  });
+  }
 }
+
