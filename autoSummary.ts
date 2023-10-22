@@ -8,7 +8,7 @@ var openaiConfig = {
   baseUrl: process.env.OPENAI_BASE_URL ?? "https://api.openai.com",
   apiKey: process.env.OPENAI_API_KEY,
   prompt:
-    "你是一个文章摘要生成助手，你要根据用户所提供的文章进行摘要，但你不需要提出建议和进行文本换行，仅仅对内容进行摘要即可。总计内容大150字左右。",
+    "你是一个文章摘要生成助手，你要根据用户所提供的文章进行摘要，但你不需要提出建议和进行文本换行，同时不要直接截取文章内容，要进行提练和摘要，总计内容150字左右。",
 };
 
 if (!openaiConfig.apiKey) {
