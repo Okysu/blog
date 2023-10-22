@@ -1,5 +1,6 @@
 import { defineValaxyConfig } from "valaxy";
 import type { UserThemeConfig } from "valaxy-theme-yun";
+import { startAISummary } from "./autoSummary";
 
 // add icons what you will need
 const safelist = ["i-ri-home-line"];
@@ -49,4 +50,11 @@ export default defineValaxyConfig<UserThemeConfig>({
   },
 
   unocss: { safelist },
+
+  hooks: {
+    "build:before": () => {
+      console.log("start auto summary");
+      startAISummary();
+    },
+  },
 });

@@ -7,12 +7,8 @@ categories:
 tags:
   - Vue
   - Typescript
-summary: Vue3 经常用到的一些小技巧
+excerpt_type: ai
 ---
-
-本文主要介绍了在Vue Router + Vite项目中设置404页面加载和解决Typescript下引入Vue组件找不到定义的问题。另外还介绍了不想使用事件总线时使用原生的Message事件进行通信的方法，以及如何使用Highlight代码高亮插件和解决组件不铺满窗口的问题。
-
-<!-- more -->
 
 ## Vue Router + Vite 没有设定的路由加载404页面
 

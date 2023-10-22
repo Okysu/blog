@@ -8,11 +8,8 @@ tags:
   - Web Worker
   - Typescript
   - Vue
+excerpt_type: ai
 ---
-
-本文介绍了Web Worker的概念和使用方法。Web Worker是一个独立的线程，可以在后台运行，不会阻塞主线程。通过创建Worker实例并设置相应的监听函数，可以实现主线程与子线程之间的通信。文章还提供了一个定时器的例子，展示了如何在子线程中使用定时器，并在Vue中使用Web Worker。需要注意的是，这个例子使用了any类型，不推荐在实际项目中使用，后续会提供更好的例子。
-
-<!-- more -->
 
 ::: warning
 这是我初学Typescript的时候写的一个小例子，使用了any类型，这种写法并不推荐，后续我会更新一个更好的例子。
