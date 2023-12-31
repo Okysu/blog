@@ -8,6 +8,9 @@ tags:
   - Vue
   - Typescript
 excerpt_type: ai
+excerpt: >-
+  本文分享了关于Vue Router +
+  Vite中未设定的路由加载404页面的设置方法，以及在Typescript中引入Vue组件时找不到定义的解决方法。还介绍了如何解决找不到Window定义的问题，以及一个不使用事件总线的偷懒方法。此外，还介绍了使用Highlight.js进行代码高亮的安装和使用方法。最后，提供了一个解决组件不铺满窗口的CSS样式。
 ---
 
 ## Vue Router + Vite 没有设定的路由加载404页面

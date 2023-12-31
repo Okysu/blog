@@ -10,6 +10,9 @@ tags:
   - Spring
   - Springboot
 excerpt_type: ai
+excerpt: >-
+  我们可以通过添加异常处理器来处理系统中的异常。在`GlobalExceptionHandler`类中，使用`@ControllerAdvice`注解表示该类是一个控制器增强类，用于拦截其他控制器的异常。通过`@ExceptionHandler`注解指定需要处理的异常类型，并在方法中对异常进行处理，可以返回自定义的错误页面或JSON数据。在`GlobalExceptionHandler`类中，我们对所有的异常都返回"System
+  error"。在测试异常获取的例子中，当访问`/error`路径时会发生除以0的异常，返回"不可以除以0哦~"。
 ---
 
 ## 添加异常处理器

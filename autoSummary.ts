@@ -73,7 +73,8 @@ export async function startAISummary() {
     if (shouldGenerateExcerpt) {
       consola.log(`Generating excerpt for ${post}`);
       try {
-        const excerpt = await generateAutoSummary(content);
+        const article = `# ${data.title}\n${content}`;
+        const excerpt = await generateAutoSummary(article);
         consola.log(`Generated excerpt for ${post}`);
 
         data.excerpt = excerpt;

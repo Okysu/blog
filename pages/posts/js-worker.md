@@ -9,6 +9,10 @@ tags:
   - Typescript
   - Vue
 excerpt_type: ai
+excerpt: >-
+  Web
+  worker是一个在web应用程序中独立于主线程运行的线程。它的优点是可以将工作交给其他线程去做，不会阻塞主线程。然而，使用any类型的写法并不推荐。在使用Web
+  worker时，需要创建主线程和子线程，并通过postMessage方法来传递消息。可以通过worker.terminate()方法销毁worker。除此之外，文章还提供了一个定时器的例子，展示了如何在主线程和子线程中创建和销毁定时器。对于Vue项目，可以使用import.meta.url和URL对象创建worker，并使用postMessage方法来操作定时器。但需要注意的是，文章中的代码可能不是最佳实践，作者承诺会更新更好的例子。
 ---
 
 ::: warning
