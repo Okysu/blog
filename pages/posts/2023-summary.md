@@ -16,21 +16,21 @@ excerpt_type: ai
 
 我开始探索我自己的更多可能。在暑期的尾巴，创建了第一个线上直播教学大家使用`Typescript`创建HTTP服务器来使用`Azure OpenAI`的服务，当时我只想完成我微软学生大使从`Alpha`晋升到`Beta`的任务。没想到，我居然还有机会在更大的舞台，和厉害的老师一起合作教学`C#`，我在Microsoft Reactor平台，和C#领域的MVP老师梁桐铭梁老师一起教大家基础的C#语法知识，在B站，在CSDN，在思否，他们都可以看到我！也是这次机会，让我重新了认识这富有潜力的编程语言——C#。
 
-![1694142099528](https://source.yby.zone/upload/images/1704031719_UNNQ8W9gxSB.png)
+![1694142099528](https://yby-zone.obs.cn-east-3.myhuaweicloud.com/images/1704031719_UNNQ8W9gxSB.png)
 
-![Cache_-5ff1f5877930902e](https://source.yby.zone/upload/images/1704031741_WrSk0DSt8lF.png)
+![Cache_-5ff1f5877930902e](https://yby-zone.obs.cn-east-3.myhuaweicloud.com/images/1704031741_WrSk0DSt8lF.png)
 
 没想到，我会不怯场。我没有吞吞吐吐，没有演出事故，十分顺利，圆满完成。我也并非是不太上镜。
 
-![Image_1697162659381](https://source.yby.zone/upload/images/1704031909_6pEGU3Ei2tO.jpg)
+![Image_1697162659381](https://yby-zone.obs.cn-east-3.myhuaweicloud.com/images/1704031909_6pEGU3Ei2tO.jpg)
 
 2023年， 我去了镇江，去了扬州，去了日照。不过这些都不是我一个人，我终于有勇气，一个人踏出我自己的舒适区。只身一人前往上海参加活动，去见识更广阔的世界。
 
-![7fdc492a4e29705b350b65874d92da29](https://source.yby.zone/upload/images/1704032087_mPpcirAgpjH.jpg)
+![7fdc492a4e29705b350b65874d92da29](https://yby-zone.obs.cn-east-3.myhuaweicloud.com/images/1704032087_mPpcirAgpjH.jpg)
 
 去GitHub开源开发者大会，终于见到了永远笑容的卢建晖老师。说了句蹩脚的英语和GitHub的副总裁强行混了一个脸熟。
 
-![be3ed153c507c9d0cc2f3eef1d643087](https://source.yby.zone/upload/images/1704032322_3zEh5qEEwlh.jpg)
+![be3ed153c507c9d0cc2f3eef1d643087](https://yby-zone.obs.cn-east-3.myhuaweicloud.com/images/1704032322_3zEh5qEEwlh.jpg)
 
 在这AI技术爆炸的一年，感谢我学校实验室老师沈老师和周老师，也感谢温杰老师，让我有机会在一家AI企业实习，我也正式向我的前后端全栈开发生活告别，从此进入AI的世界。有些时候，你需要把所有东西给烧掉，然后重新开始。燃烧后的土壤更加肥沃。人生也是这样，我重新开始，我找到出路。
 
@@ -40,5 +40,5 @@ excerpt_type: ai
 
 感谢2023年的肥沃土壤，我会在更多地方写下我的名字。
 
-![c3aac05393a9c3059571f193769ec40f](https://source.yby.zone/upload/images/1704032654_2kTVzIkqwMi.jpg)
+![c3aac05393a9c3059571f193769ec40f](https://yby-zone.obs.cn-east-3.myhuaweicloud.com/images/1704032654_2kTVzIkqwMi.jpg)
 

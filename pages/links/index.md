@@ -2,7 +2,7 @@
 title: 我的小伙伴们
 keywords: 链接
 description: 云游的小伙伴们
-links: https://source.yby.zone/l.json
+links: https://yby-zone.obs.cn-east-3.myhuaweicloud.com/l.json
 random: true
 ---
 

@@ -27,8 +27,8 @@ excerpt: >-
 
 我不知道到那时骨骼解算的终点在何处，但我想，当我的剧本落下帷幕时，我一定还会回忆并感谢此间登场的变量与关键人物，你们。
 
-![微软学生大使礼物](https://source.yby.zone/upload/images/1673001914_kXWwvk9MlPx.png)
+![微软学生大使礼物](https://yby-zone.obs.cn-east-3.myhuaweicloud.com/images/1673001914_kXWwvk9MlPx.png)
 
-![微软学生大使礼物](https://source.yby.zone/upload/images/1673001934_jdtwTvxvVPa.png)
+![微软学生大使礼物](https://yby-zone.obs.cn-east-3.myhuaweicloud.com/images/1673001934_jdtwTvxvVPa.png)
 
-![我自己的框架](https://source.yby.zone/upload/images/1673002169_rnxVBPyjaNt.png)
+![我自己的框架](https://yby-zone.obs.cn-east-3.myhuaweicloud.com/images/1673002169_rnxVBPyjaNt.png)

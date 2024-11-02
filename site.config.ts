@@ -7,7 +7,7 @@ export default defineSiteConfig({
   subtitle: '我只知道一件事，那就是我一无所知。',
   author: {
     name: 'Boyang Yu/Okysu',
-    avatar: 'https://yby-zone.obs.cn-east-3.myhuaweicloud.com/avatar.png',
+    avatar: 'https://yby-zone.obs.cn-east-3.myhuaweicloud.com/avatar.jpg',
   },
   description: '为吾为枝，余地三尺，以己为棋，胜天半子。',
   social: [
