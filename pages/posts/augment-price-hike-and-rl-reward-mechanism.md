@@ -9,9 +9,6 @@ tags:
   - 思考
 excerpt_type: ai
 ---
-
-# 从 Augment 涨价谈起：国产编程模型的"阵痛期"与 RL 奖励机制的深层博弈
-
 *一位开发者在 Kimi、火山、GLM Coding Plan 深度体验后的思考*
 
 ---
