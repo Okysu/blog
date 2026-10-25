@@ -6,4 +6,4 @@ links: /l.json
 random: true
 ---
 
-<YunLinks :links="frontmatter.links" :random="frontmatter.random" />
+<EditorialFriends />

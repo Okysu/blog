@@ -2,20 +2,33 @@
   "name": "okysu-blog",
   "version": "0.17.1",
   "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.4.2",
+  "engines": {
+    "node": ">=22.12.0"
+  },
   "scripts": {
-    "build": "npm run build:ssg && npm run rss",
+    "build": "pnpm build:ssg && pnpm rss",
     "build:spa": "valaxy build",
     "build:ssg": "valaxy build --ssg",
     "dev": "valaxy",
     "rss": "valaxy rss",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "test": "tsx --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "theme:sync": "pnpm --dir valaxy-theme-editorial pack:theme && node scripts/sync-theme.mjs"
   },
   "dependencies": {
-    "@types/node": "^20.8.7",
-    "valaxy": "0.19.3",
-    "valaxy-theme-yun": "0.19.3"
+    "consola": "^3.4.2",
+    "gray-matter": "^4.0.3",
+    "valaxy": "1.2.0",
+    "valaxy-addon-mermaid": "0.1.1",
+    "valaxy-theme-editorial": "file:vendor/valaxy-theme-editorial-0.1.0.tgz"
   },
   "devDependencies": {
-    "typescript": "^5.2.2"
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.5"
   }
 }

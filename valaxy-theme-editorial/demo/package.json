@@ -1,0 +1,15 @@
+{
+  "name": "valaxy-theme-editorial-demo",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "valaxy build --ssg --log info",
+    "dev": "valaxy",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "valaxy": "catalog:",
+    "valaxy-addon-mermaid": "catalog:",
+    "valaxy-theme-editorial": "workspace:*"
+  }
+}

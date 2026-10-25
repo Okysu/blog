@@ -1,11 +1,12 @@
-FROM node:16-alpine as build-stage
+FROM node:24-alpine AS build-stage
 
 WORKDIR /app
 RUN corepack enable
 
-COPY .npmrc package.json ./
+COPY .npmrc package.json pnpm-lock.yaml pnpm-workspace.yaml ./
+COPY vendor/ ./vendor/
 RUN --mount=type=cache,id=pnpm-store,target=/root/.pnpm-store \
-    pnpm install
+    pnpm install --frozen-lockfile
 
 COPY . .
 RUN pnpm build

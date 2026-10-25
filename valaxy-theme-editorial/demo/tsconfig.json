@@ -1,0 +1,9 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "types": ["node", "vite/client", "valaxy/client", "valaxy-addon-mermaid/client/env"]
+  },
+  "include": ["**/*.ts", "**/*.vue", ".valaxy/**/*.d.ts"],
+  "exclude": ["dist", "node_modules"]
+}

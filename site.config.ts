@@ -3,6 +3,8 @@ import { defineSiteConfig } from 'valaxy'
 export default defineSiteConfig({
   url: 'https://blog.yby.zone',
   lang: 'zh-CN',
+  timezone: 'Asia/Hong_Kong',
+  excerpt: { auto: true, length: 180, type: 'text' },
   title: '小于同学的异世界',
   subtitle: '我只知道一件事，那就是我一无所知。',
   author: {

@@ -5,8 +5,8 @@ top: 1
 categories:
   - 随笔
 tags:
-  - 2023
-  - 2024
+  - '2023'
+  - '2024'
   - 年中总结
 excerpt_type: ai
 ---

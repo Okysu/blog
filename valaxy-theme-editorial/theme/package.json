@@ -1,0 +1,48 @@
+{
+  "name": "valaxy-theme-editorial",
+  "type": "module",
+  "version": "0.1.0",
+  "packageManager": "pnpm@12.4.2",
+  "description": "A quiet, typography-first Valaxy theme for personal writing",
+  "author": {
+    "name": "Okysu",
+    "url": "https://oky.su"
+  },
+  "license": "MIT",
+  "keywords": [
+    "valaxy",
+    "theme",
+    "starter",
+    "vue"
+  ],
+  "exports": {
+    ".": "./index.ts",
+    "./client": "./client/index.ts",
+    "./*": "./*"
+  },
+  "main": "index.ts",
+  "types": "types/index.d.ts",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "client",
+    "components",
+    "composables",
+    "index.ts",
+    "layouts",
+    "pages",
+    "setup",
+    "styles",
+    "types",
+    "valaxy.config.ts"
+  ],
+  "peerDependencies": {
+    "valaxy": ">=1.2.0 <2",
+    "vue": "^3.5.0",
+    "vue-router": "^5.0.3"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "valaxy": "catalog:"
+  }
+}
