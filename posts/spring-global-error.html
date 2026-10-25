@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html  lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon.svg">
+    <script>
+    ;(function () {
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+    </script>
+  <style type="text/css">
+    :root { color-scheme: light dark; --va-c-bg: #fff; }
+    html.dark { --va-c-bg: #000; }
+    html { background-color: var(--va-c-bg); }
+  </style><style id="valaxy-fouc">body{opacity:0!important}</style><style>body{transition:opacity .15s ease}</style><noscript><style>body{opacity:1!important}</style></noscript><script>(function foucGuardScript(maxDuration) {
+  var done = 0;
+  function reveal() {
+    if (done) return;
+    done = 1;
+    var s = document.getElementById("valaxy-fouc");
+    if (s) s.remove();
+  }
+  function check() {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      if (!links[i].sheet) return;
+    }
+    reveal();
+  }
+  new MutationObserver(check).observe(document.head, {
+    childList: true,
+    attributes: true,
+    attributeFilter: ["media", "rel"]
+  });
+  addEventListener("load", reveal);
+  if (maxDuration)
+    setTimeout(reveal, maxDuration);
+})(5000)</script>
+    <script>
+    const locale = localStorage.getItem('valaxy-locale') || 'zh-CN';
+    document.documentElement.setAttribute('lang', locale);
+    </script>
+    
+  <script type="module" crossorigin src="/assets/index.C5ul-Ma4.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime.COiEfhsA.js">
+  <link rel="modulepreload" crossorigin href="/assets/framework.DbXEvxYr.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-i18n.B-v5q_Rk.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-router.D6rIZJub.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/dayjs.CE09CbxT.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/pinia.BsAj_aE7.js">
+  <link rel="modulepreload" crossorigin href="/assets/theme.Cb73jhYh.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/nprogress.DWZypiuu.js">
+  <link rel="stylesheet" crossorigin href="/assets/style.W5v513Ca.css">
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.DMm9YOAa.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Cx986IdX.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Jm3AIy58.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.BMLOBm91.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.B22Nviop.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.Dr94JaBh.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.t53AETM-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.DA0__PXp.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D3wIWfF6.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D5yQViql.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.C195tn64.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.oD1tc_U0.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size3-Regular.CTq5MqoE.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.BF-4gkZK.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff" as="font" type="font/woff" crossorigin>
+<link rel="modulepreload" crossorigin href="/assets/theme.Cb73jhYh.js">
+<link rel="modulepreload" crossorigin href="/assets/spring-global-error.Dwjf9s6x.js">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Springboot业务异常全局Handler - 小于同学的异世界</title>
+<meta property="og:locale:alternate" content="en">
+<meta name="description" content="为吾为枝，余地三尺，以己为棋，胜天半子。">
+<meta property="og:description" content="我们可以通过添加异常处理器来处理系统中的异常。在`GlobalExceptionHandler`类中，使用`@ControllerAdvice`注解表示该类是一个控制器增强类，用于拦截其他控制器的异常。通过`@ExceptionHandler`注解指定需要处理的异常类型，并在方法中对异常进行处理，可以返回自定义的错误页面或JSON数据。在`GlobalExceptionHandler`类中，我们对所有的异常都返回&quot;System error&quot;。在测试异常获取的例子中，当访问`/error`路径时会发生除以0的异常，返回&quot;不可以除以0哦~&quot;。">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:site_name" content="小于同学的异世界">
+<meta property="og:title" content="Springboot业务异常全局Handler">
+<meta property="og:image" content="https://blog.yby.zone/favicon.svg">
+<meta property="og:image:alt" content="Springboot业务异常全局Handler">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://blog.yby.zone/posts/spring-global-error">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="我们可以通过添加异常处理器来处理系统中的异常。在`GlobalExceptionHandler`类中，使用`@ControllerAdvice`注解表示该类是一个控制器增强类，用于拦截其他控制器的异常。通过`@ExceptionHandler`注解指定需要处理的异常类型，并在方法中对异常进行处理，可以返回自定义的错误页面或JSON数据。在`GlobalExceptionHandler`类中，我们对所有的异常都返回&quot;System error&quot;。在测试异常获取的例子中，当访问`/error`路径时会发生除以0的异常，返回&quot;不可以除以0哦~&quot;。">
+<meta name="twitter:image" content="https://blog.yby.zone/favicon.svg">
+<meta name="twitter:title" content="Springboot业务异常全局Handler">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="generator" content="Valaxy 1.2.0">
+<link rel="canonical" href="https://blog.yby.zone/posts/spring-global-error">
+</head>
+<body>
+  <div id="app"><!--[--><!--[--><!----><!--[--><!--]--><!----><!--]--><div class="ed-shell"><a class="ed-skip" href="#main-content">跳至正文</a><header class="ed-nav"><a href="/" class="ed-wordmark" aria-label="返回首页">Okysu<span aria-hidden="true">.</span></a><button class="ed-menu-button" aria-controls="editorial-navigation" aria-expanded="false">菜单</button><nav id="editorial-navigation" class="ed-nav-links" aria-label="主导航"><!--[--><a href="/" class=""><!--[-->首页<!--]--></a><a href="/archives/" class=""><!--[-->文章<!--]--></a><a href="/tags/" class=""><!--[-->标签<!--]--></a><a href="/categories/" class=""><!--[-->分类<!--]--></a><a href="/links/" class=""><!--[-->友链<!--]--></a><a href="/about/" class=""><!--[-->关于<!--]--></a><!--]--></nav><button class="ed-appearance" aria-label="切换浅色与深色外观" title="切换外观"><svg class="ed-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.9 13.2A9 9 0 0 1 10.8 3.1 9 9 0 1 0 20.9 13.2Z"></path></svg><svg class="ed-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"></path></svg></button></header><div id="main-content" tabindex="-1" class="ed-content"><!--[--><main><article class="ed-article ed-article-post"><header class="ed-article-header"><a href="/archives/" class="ed-back"> ← 所有文章 </a><div class="ed-article-meta"><time datetime="2023-09-01" class="ed-date">2023-09-01</time><!--[--><a href="/tags/?tag=Java" class="">Java</a><a href="/tags/?tag=Spring" class="">Spring</a><a href="/tags/?tag=Springboot" class="">Springboot</a><!--]--><!----></div><h1>Springboot业务异常全局Handler</h1><!----></header><div class="ed-with-outline ed-reading-grid"><div class="ed-reading"><!--[--><div class="ed-main"><!--[--><!--[--><!--]--><!--[--><!--]--><!--[--><!--[--><aside class="ed-ai-summary" aria-label="AI 摘要"><p class="ed-ai-summary-label"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5Z"></path></svg> AI 摘要 </p><p class="ed-ai-summary-text">我们可以通过添加异常处理器来处理系统中的异常。在GlobalExceptionHandler类中，使用@ControllerAdvice注解表示该类是一个控制器增强类，用于拦截其他控制器的异常。通过@ExceptionHandler注解指定需要处理的异常类型，并在方法中对异常进行处理，可以返回自定义的错误页面或JSON数据。在GlobalExceptionHandler类中，我们对所有的异常都返回&quot;System error&quot;。在测试异常获取的例子中，当访问/error路径时会发生除以0的异常，返回&quot;不可以除以0哦&quot;。</p></aside><!--]--><div class="markdown-body"><article class="markdown-body"><!--[--><!--[--><h2 id="添加异常处理器" tabindex="-1">添加异常处理器 <a class="header-anchor" href="#添加异常处理器" aria-label="Permalink to &quot;添加异常处理器&quot;">​</a></h2><div class="language-java"><button title="Copy code" class="copy"></button><span class="lang">java</span><pre class="shiki shiki-themes github-light github-dark vp-code"><code v-pre><span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">import</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> org.springframework.web.bind.annotation.ControllerAdvice;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">import</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> org.springframework.web.bind.annotation.ExceptionHandler;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">import</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> org.springframework.web.bind.annotation.ResponseBody;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">@</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">ControllerAdvice</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">public</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;"> class</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;"> GlobalExceptionHandler</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> {</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    @</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">ExceptionHandler</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(Exception.class)</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    @</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">ResponseBody</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">    public</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> String </span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">handleException</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(Exception </span><span style="--shiki-light:#E36209;--shiki-dark:#FFAB70;">e</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">) {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">        return</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> &quot;System error&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">    }</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">}</span></span></code></pre><button class="code-block-unfold-btn"></button></div><p><code>@ControllerAdvice</code>注解表示我们定义的是一个控制器增强类，当其他任何控制器发生异常且异常类型符合<code>@ExceptionHandler</code>注解中指定的异常类时，原请求将会被拦截到这个我们自定义的控制器方法中。</p><p>在该方法中，我们可以拿到异常信息，于是便可以自定义该如何处理异常，是返回一个我们自定义的模版错误页面，还是返回JSON数据，这将都由我们根据实际应用场景而自己决定。并且我们还可以自定义异常类处理特殊情况。</p><p>另外，<code>@ExceptionHandler</code>注解只有一个value参数，为指定的异常类。<code>@ControllerAdvice</code>注解查看源码参数发现我们还可以指定需要拦截的控制器所在的包路径。</p><h2 id="测试异常获取" tabindex="-1">测试异常获取 <a class="header-anchor" href="#测试异常获取" aria-label="Permalink to &quot;测试异常获取&quot;">​</a></h2><div class="language-java"><button title="Copy code" class="copy"></button><span class="lang">java</span><pre class="shiki shiki-themes github-light github-dark vp-code"><code v-pre><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">@</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">GetMapping</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">(</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">&quot;/error&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">)</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">public</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> String </span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">makeError</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">() {</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">    int</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> i </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">=</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> 1</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;"> /</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> 0</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">    return</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> &quot;不可以除以0哦~&quot;</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">}</span></span></code></pre><button class="code-block-unfold-btn"></button></div><!--]--><!--[--><!--]--><!--]--><!----><!----></article></div><!--[--><!--]--><!--]--><!--[--><!--]--><!--[--><!--]--><!--[--><!--]--><!----><!--[--><!--]--><!--]--><!--[--><!--]--></div><!--]--></div><aside class="ed-aside"><!----></aside></div><nav class="ed-adjacent" aria-label="相邻文章"><a href="/posts/vue-basic-learning" class=""><span>上一篇</span>Vue3 经常用到的一些小技巧</a><a href="/posts/js-worker" class=""><span>下一篇</span>JS 性能利器！ Web Worker怎么用!</a></nav></article></main><!--]--></div><footer class="ed-footer"><div><span>© 2016 · </span>Boyang Yu/Okysu<p>为吾为枝，余地三尺，以己为棋，胜天半子。</p></div><div class="ed-footer-links"><a href="https://beian.miit.gov.cn/" rel="noreferrer">苏ICP备2021011781号</a><a href="https://valaxy.site">Valaxy</a><span aria-hidden="true">/</span><span>Editorial</span></div></footer></div><!--]--></div><script>window.__INITIAL_STATE__='{"pinia":{"app":{"showLoading":true},"routerStore":{}}}'</script><script type="application/ld+json" data-hid="schema-org-graph">{"@context":"https://schema.org","@graph":[{"@id":"https://blog.yby.zone/#identity","@type":"Person","name":"Boyang Yu/Okysu","url":"https://blog.yby.zone/","image":{"@id":"https://blog.yby.zone/#/schema/image/1"},"sameAs":["/atom.xml","https://github.com/Okysu","mailto:yby@ecanse.com","https://mvp.microsoft.com/zh-CN/studentambassadors/profile/1cba6b30-3e38-4959-9863-c8cd7ee9e133"]},{"@id":"https://blog.yby.zone/#website","@type":"WebSite","dateModified":"2023-09-01T07:23:03.000Z","datePublished":"2023-09-01T07:23:03.000Z","inLanguage":"zh-CN","name":"Springboot业务异常全局Handler","url":"https://blog.yby.zone/","publisher":{"@id":"https://blog.yby.zone/#identity"}},{"@id":"https://blog.yby.zone/posts/spring-global-error#webpage","@type":"WebPage","description":"为吾为枝，余地三尺，以己为棋，胜天半子。","name":"Springboot业务异常全局Handler","url":"https://blog.yby.zone/posts/spring-global-error","isPartOf":{"@id":"https://blog.yby.zone/#website"},"potentialAction":[{"@type":"ReadAction","target":["https://blog.yby.zone/posts/spring-global-error"]}]},{"@id":"https://blog.yby.zone/#/schema/image/1","@type":"ImageObject","contentUrl":"https://yby-zone.obs.cn-east-3.myhuaweicloud.com/avatar.jpg","inLanguage":"zh-CN","url":"https://yby-zone.obs.cn-east-3.myhuaweicloud.com/avatar.jpg"}]}</script>
+  <div id="valaxy-teleports"></div>
+  
+</body>
+</html>

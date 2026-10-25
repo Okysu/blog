@@ -1,0 +1,146 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "小于同学的异世界",
+    "home_page_url": "https://blog.yby.zone/",
+    "feed_url": "https://blog.yby.zone/feed.json",
+    "description": "为吾为枝，余地三尺，以己为棋，胜天半子。",
+    "icon": "https://yby-zone.obs.cn-east-3.myhuaweicloud.com/avatar.jpg",
+    "author": {
+        "name": "Boyang Yu/Okysu",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "https://blog.yby.zone/posts/why-not-me-developer-journey",
+            "content_html": "<blockquote>\n<p><em>“我只知道一件事，那就是我一无所知。为吾为枝，余地三尺；以己为棋，胜天半子。”</em></p>\n</blockquote>\n<h2>序幕：聚光灯下的恍惚</h2>\n<p>我已经数不清，这是我的作品第几次登上华为应用市场的首页推荐了。</p>\n<p>过去这段时间</p>\n<br/><p>访问 <a href=\"https://blog.yby.zone/posts/why-not-me-developer-journey\" target=\"_blank\">https://blog.yby.zone/posts/why-not-me-developer-journey</a> 阅读全文。</p>",
+            "url": "https://blog.yby.zone/posts/why-not-me-developer-journey",
+            "title": "为什么不是我？——一个二本开发者的“逆行”与破壁之路",
+            "date_modified": "2026-10-25T04:11:09.000Z",
+            "date_published": "2026-10-25T04:11:09.000Z",
+            "author": {
+                "name": "Boyang Yu/Okysu",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://blog.yby.zone/posts/the-making-of-a-show-robot",
+            "content_html": "<h1>承诺的安魂曲：来自“创新”熔炉的笔记</h1>\n<h2>一、理想主义的序曲：象牙塔的承诺</h2>\n<p>在一切开始之前，空气中弥漫着一种几乎可以触摸到的、智识上的兴奋。那是一种属于创造前夜的、纯粹的乐观主义。故事的开</p>\n<br/><p>访问 <a href=\"https://blog.yby.zone/posts/the-making-of-a-show-robot\" target=\"_blank\">https://blog.yby.zone/posts/the-making-of-a-show-robot</a> 阅读全文。</p>",
+            "url": "https://blog.yby.zone/posts/the-making-of-a-show-robot",
+            "title": "承诺的安魂曲：来自“创新”熔炉的笔记",
+            "date_modified": "2025-07-24T12:56:37.000Z",
+            "date_published": "2025-07-24T12:56:37.000Z",
+            "author": {
+                "name": "Boyang Yu/Okysu",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://blog.yby.zone/posts/augment-price-hike-and-rl-reward-mechanism",
+            "content_html": "<p><em>一位开发者在 Kimi、火山、GLM Coding Plan 深度体验后的思考</em></p>\n<hr>\n<p>最近 AI 编程圈最火的话题除了 GPT-5.3 和 Claude Opus 4.6 的&quot;神仙打架&quot;，大</p>\n<br/><p>访问 <a href=\"https://blog.yby.zone/posts/augment-price-hike-and-rl-reward-mechanism\" target=\"_blank\">https://blog.yby.zone/posts/augment-price-hike-and-rl-reward-mechanism</a> 阅读全文。</p>",
+            "url": "https://blog.yby.zone/posts/augment-price-hike-and-rl-reward-mechanism",
+            "title": "从 Augment 涨价说起：我在国产 AI 编程工具里\"踩坑\"的半个月",
+            "date_modified": "2025-02-11T15:30:00.000Z",
+            "date_published": "2025-02-11T15:30:00.000Z",
+            "author": {
+                "name": "Boyang Yu/Okysu",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://blog.yby.zone/posts/2024-middle-year",
+            "content_html": "<p>距离我上一次写一些小想法已经过去大概七个多月了，应该还是上次跨年所写的。回顾我上一篇随笔——[2023，是我野火燃烧的土壤。](<a href=\"https://blog.yby.zone/posts/2023-su\">https://blog.yby.zone/posts/2023-su</a></p>\n<br/><p>访问 <a href=\"https://blog.yby.zone/posts/2024-middle-year\" target=\"_blank\">https://blog.yby.zone/posts/2024-middle-year</a> 阅读全文。</p>",
+            "url": "https://blog.yby.zone/posts/2024-middle-year",
+            "title": "7月，我失败，也失败。",
+            "date_modified": "2024-08-07T00:00:00.000Z",
+            "date_published": "2024-08-07T00:00:00.000Z",
+            "author": {
+                "name": "Boyang Yu/Okysu",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://blog.yby.zone/posts/make-interpreter-myself",
+            "content_html": "<h2>灵感的火花</h2>\n<p>首先，我要向Thorsten Ball致敬。是他的《用Go语言自制解释器》这本书点燃了我的灵感之火。读完这本书后，我想：&quot;嘿，为什么不自己也来一次呢？&quot;于是，1y-Languag</p>\n<br/><p>访问 <a href=\"https://blog.yby.zone/posts/make-interpreter-myself\" target=\"_blank\">https://blog.yby.zone/posts/make-interpreter-myself</a> 阅读全文。</p>",
+            "url": "https://blog.yby.zone/posts/make-interpreter-myself",
+            "title": "Go语言打造自己的解释器：我的1y-Language的奇妙冒险",
+            "date_modified": "2024-07-22T14:54:18.000Z",
+            "date_published": "2024-07-22T14:54:18.000Z",
+            "author": {
+                "name": "Boyang Yu/Okysu",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://blog.yby.zone/posts/quickstart-python",
+            "content_html": "<h2>基础语法</h2>\n<h3>注释</h3>\n<p>Python的注释和C的注释类似，Python使用以#开头的单行注释，也支持以'''或&quot;&quot;&quot;开头和以'''或&quot;&quot;&quot;结尾的多行注释。</p>\n<pre><code class=\"language-python\"># 这是单</code></pre>\n<br/><p>访问 <a href=\"https://blog.yby.zone/posts/quickstart-python\" target=\"_blank\">https://blog.yby.zone/posts/quickstart-python</a> 阅读全文。</p>",
+            "url": "https://blog.yby.zone/posts/quickstart-python",
+            "title": "歪比歪的Python入门手册",
+            "date_modified": "2024-03-07T15:09:50.000Z",
+            "date_published": "2024-03-07T15:09:50.000Z",
+            "author": {
+                "name": "Boyang Yu/Okysu",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://blog.yby.zone/posts/2023-summary",
+            "content_html": "<p>2023年，似乎是关于“重启”的一年。结束了长达3年的疫情。我们摘下口罩，呼吸大口空气，终于有机会再次出发，踏遍山野，似乎一切都回到了疫情之前平静祥和的时光。有序的时间之上是我们参差的生活，变化与静</p>\n<br/><p>访问 <a href=\"https://blog.yby.zone/posts/2023-summary\" target=\"_blank\">https://blog.yby.zone/posts/2023-summary</a> 阅读全文。</p>",
+            "url": "https://blog.yby.zone/posts/2023-summary",
+            "title": "2023，是我野火燃烧的土壤。",
+            "date_modified": "2023-12-31T14:32:10.000Z",
+            "date_published": "2023-12-31T14:32:10.000Z",
+            "author": {
+                "name": "Boyang Yu/Okysu",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://blog.yby.zone/posts/js-worker",
+            "content_html": "<p>::: warning<br>\n这是我初学Typescript的时候写的一个小例子，使用了any类型，这种写法并不推荐，后续我会更新一个更好的例子。<br>\n:::</p>\n<h2>Worker 是什么？</h2>\n<p>Web wor</p>\n<br/><p>访问 <a href=\"https://blog.yby.zone/posts/js-worker\" target=\"_blank\">https://blog.yby.zone/posts/js-worker</a> 阅读全文。</p>",
+            "url": "https://blog.yby.zone/posts/js-worker",
+            "title": "JS 性能利器！ Web Worker怎么用!",
+            "date_modified": "2023-09-01T07:23:03.000Z",
+            "date_published": "2023-09-01T07:23:03.000Z",
+            "author": {
+                "name": "Boyang Yu/Okysu",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://blog.yby.zone/posts/spring-global-error",
+            "content_html": "<h2>添加异常处理器</h2>\n<pre><code class=\"language-java\">import org.springframework.web.bind.annotation.ControllerAdvice;\nimport org.spr</code></pre>\n<br/><p>访问 <a href=\"https://blog.yby.zone/posts/spring-global-error\" target=\"_blank\">https://blog.yby.zone/posts/spring-global-error</a> 阅读全文。</p>",
+            "url": "https://blog.yby.zone/posts/spring-global-error",
+            "title": "Springboot业务异常全局Handler",
+            "date_modified": "2023-09-01T07:23:03.000Z",
+            "date_published": "2023-09-01T07:23:03.000Z",
+            "author": {
+                "name": "Boyang Yu/Okysu",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://blog.yby.zone/posts/vue-basic-learning",
+            "content_html": "<h2>Vue Router + Vite 没有设定的路由加载404页面</h2>\n<pre><code class=\"language-ts\">{\n    path: '/:pathMatch(.*)*',\n    name: &quot;404&quot;,\n    met</code></pre>\n<br/><p>访问 <a href=\"https://blog.yby.zone/posts/vue-basic-learning\" target=\"_blank\">https://blog.yby.zone/posts/vue-basic-learning</a> 阅读全文。</p>",
+            "url": "https://blog.yby.zone/posts/vue-basic-learning",
+            "title": "Vue3 经常用到的一些小技巧",
+            "date_modified": "2023-09-01T07:23:03.000Z",
+            "date_published": "2023-09-01T07:23:03.000Z",
+            "author": {
+                "name": "Boyang Yu/Okysu",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://blog.yby.zone/posts/2022-summary",
+            "content_html": "<blockquote>\n<p>我生来就是高山， 而不是溪流。我欲于群峰之巅，俯视平静的沟壑。我生来就是人杰而非草芥。我站在伟人之肩，藐视卑微的懦夫。</p>\n</blockquote>\n<p>时光如同白驹过隙，一霎那时间就送别了2022，迎来2023。没错，我即将</p>\n<br/><p>访问 <a href=\"https://blog.yby.zone/posts/2022-summary\" target=\"_blank\">https://blog.yby.zone/posts/2022-summary</a> 阅读全文。</p>",
+            "url": "https://blog.yby.zone/posts/2022-summary",
+            "title": "2022，只不过是一串整数型常量而已。",
+            "date_modified": "2023-01-01T00:00:00.000Z",
+            "date_published": "2023-01-01T00:00:00.000Z",
+            "author": {
+                "name": "Boyang Yu/Okysu",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}

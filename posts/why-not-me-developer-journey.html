@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html  lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon.svg">
+    <script>
+    ;(function () {
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+    </script>
+  <style type="text/css">
+    :root { color-scheme: light dark; --va-c-bg: #fff; }
+    html.dark { --va-c-bg: #000; }
+    html { background-color: var(--va-c-bg); }
+  </style><style id="valaxy-fouc">body{opacity:0!important}</style><style>body{transition:opacity .15s ease}</style><noscript><style>body{opacity:1!important}</style></noscript><script>(function foucGuardScript(maxDuration) {
+  var done = 0;
+  function reveal() {
+    if (done) return;
+    done = 1;
+    var s = document.getElementById("valaxy-fouc");
+    if (s) s.remove();
+  }
+  function check() {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      if (!links[i].sheet) return;
+    }
+    reveal();
+  }
+  new MutationObserver(check).observe(document.head, {
+    childList: true,
+    attributes: true,
+    attributeFilter: ["media", "rel"]
+  });
+  addEventListener("load", reveal);
+  if (maxDuration)
+    setTimeout(reveal, maxDuration);
+})(5000)</script>
+    <script>
+    const locale = localStorage.getItem('valaxy-locale') || 'zh-CN';
+    document.documentElement.setAttribute('lang', locale);
+    </script>
+    
+  <script type="module" crossorigin src="/assets/index.C5ul-Ma4.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime.COiEfhsA.js">
+  <link rel="modulepreload" crossorigin href="/assets/framework.DbXEvxYr.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-i18n.B-v5q_Rk.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-router.D6rIZJub.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/dayjs.CE09CbxT.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/pinia.BsAj_aE7.js">
+  <link rel="modulepreload" crossorigin href="/assets/theme.Cb73jhYh.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/nprogress.DWZypiuu.js">
+  <link rel="stylesheet" crossorigin href="/assets/style.W5v513Ca.css">
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.DMm9YOAa.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Cx986IdX.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Jm3AIy58.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.BMLOBm91.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.B22Nviop.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.Dr94JaBh.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.t53AETM-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.DA0__PXp.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D3wIWfF6.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D5yQViql.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.C195tn64.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.oD1tc_U0.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size3-Regular.CTq5MqoE.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.BF-4gkZK.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff" as="font" type="font/woff" crossorigin>
+<link rel="modulepreload" crossorigin href="/assets/theme.Cb73jhYh.js">
+<link rel="modulepreload" crossorigin href="/assets/why-not-me-developer-journey.BOF10ABy.js">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>为什么不是我？——一个二本开发者的“逆行”与破壁之路 - 小于同学的异世界</title>
+<meta property="og:locale:alternate" content="en">
+<meta name="description" content="为吾为枝，余地三尺，以己为棋，胜天半子。">
+<meta property="og:description" content="从普通二本院校走向鸿蒙独立开发与具身智能，这段经历并非一条预先规划好的坦途。从挑战短板、学习陌生技术，到在贵人的帮助下参与机器人项目，再到 HDC 台下那句“Why not me?”，一次次跨出舒适圈，让幸运逐渐转化为抓住机会的实力。这是对一路扶持的感恩，也是对那个始终愿意向前一步的自己的回答。">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:site_name" content="小于同学的异世界">
+<meta property="og:title" content="为什么不是我？——一个二本开发者的“逆行”与破壁之路">
+<meta property="og:image" content="https://blog.yby.zone/favicon.svg">
+<meta property="og:image:alt" content="为什么不是我？——一个二本开发者的“逆行”与破壁之路">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://blog.yby.zone/posts/why-not-me-developer-journey">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="从普通二本院校走向鸿蒙独立开发与具身智能，这段经历并非一条预先规划好的坦途。从挑战短板、学习陌生技术，到在贵人的帮助下参与机器人项目，再到 HDC 台下那句“Why not me?”，一次次跨出舒适圈，让幸运逐渐转化为抓住机会的实力。这是对一路扶持的感恩，也是对那个始终愿意向前一步的自己的回答。">
+<meta name="twitter:image" content="https://blog.yby.zone/favicon.svg">
+<meta name="twitter:title" content="为什么不是我？——一个二本开发者的“逆行”与破壁之路">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="generator" content="Valaxy 1.2.0">
+<link rel="canonical" href="https://blog.yby.zone/posts/why-not-me-developer-journey">
+</head>
+<body>
+  <div id="app"><!--[--><!--[--><!----><!--[--><!--]--><!----><!--]--><div class="ed-shell"><a class="ed-skip" href="#main-content">跳至正文</a><header class="ed-nav"><a href="/" class="ed-wordmark" aria-label="返回首页">Okysu<span aria-hidden="true">.</span></a><button class="ed-menu-button" aria-controls="editorial-navigation" aria-expanded="false">菜单</button><nav id="editorial-navigation" class="ed-nav-links" aria-label="主导航"><!--[--><a href="/" class=""><!--[-->首页<!--]--></a><a href="/archives/" class=""><!--[-->文章<!--]--></a><a href="/tags/" class=""><!--[-->标签<!--]--></a><a href="/categories/" class=""><!--[-->分类<!--]--></a><a href="/links/" class=""><!--[-->友链<!--]--></a><a href="/about/" class=""><!--[-->关于<!--]--></a><!--]--></nav><button class="ed-appearance" aria-label="切换浅色与深色外观" title="切换外观"><svg class="ed-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.9 13.2A9 9 0 0 1 10.8 3.1 9 9 0 1 0 20.9 13.2Z"></path></svg><svg class="ed-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"></path></svg></button></header><div id="main-content" tabindex="-1" class="ed-content"><!--[--><main><article class="ed-article ed-article-post"><header class="ed-article-header"><a href="/archives/" class="ed-back"> ← 所有文章 </a><div class="ed-article-meta"><time datetime="2026-10-25" class="ed-date">2026-10-25</time><!--[--><a href="/tags/?tag=%E6%88%90%E9%95%BF" class="">成长</a><a href="/tags/?tag=%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91" class="">独立开发</a><a href="/tags/?tag=%E9%B8%BF%E8%92%99" class="">鸿蒙</a><!--]--><!----></div><h1>为什么不是我？——一个二本开发者的“逆行”与破壁之路</h1><!----></header><div class="ed-with-outline ed-reading-grid"><div class="ed-reading"><!--[--><div class="ed-main"><!--[--><!--[--><!--]--><!--[--><!--]--><!--[--><!--[--><aside class="ed-ai-summary" aria-label="AI 摘要"><p class="ed-ai-summary-label"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5Z"></path></svg> AI 摘要 </p><p class="ed-ai-summary-text">从普通二本院校走向鸿蒙独立开发与具身智能，这段经历并非一条预先规划好的坦途。从挑战短板、学习陌生技术，到在贵人的帮助下参与机器人项目，再到 HDC 台下那句“Why not me?”，一次次跨出舒适圈，让幸运逐渐转化为抓住机会的实力。这是对一路扶持的感恩，也是对那个始终愿意向前一步的自己的回答。</p></aside><!--]--><div class="markdown-body"><article class="markdown-body"><!--[--><!--[--><blockquote><p><em>“我只知道一件事，那就是我一无所知。为吾为枝，余地三尺；以己为棋，胜天半子。”</em></p></blockquote><h2 id="序幕-聚光灯下的恍惚" tabindex="-1">序幕：聚光灯下的恍惚 <a class="header-anchor" href="#序幕-聚光灯下的恍惚" aria-label="Permalink to &quot;序幕：聚光灯下的恍惚&quot;">​</a></h2><p>我已经数不清，这是我的作品第几次登上华为应用市场的首页推荐了。</p><p>过去这段时间里，很多以前想都不敢想的画面，像快进的电影一样在我生命里帧帧闪过：我曾跟随江南大学的机器人研学项目走进央视的镜头；我受邀去往东莞松山湖参加华为开发者大会，成为“鸿蒙星光大道”上受邀展出的40余位开发者之一；我独立开发的《有声有色》与《减法购物车》，双双入选了华为最高级别的宣传资源——鸿蒙精品常驻榜单，不仅拿到了应用市场首页的巨幅大卡，还获得了官方宣传资源矩阵下众多KOL博主的倾力推荐。</p><p>而在独立开发之外的现实世界里，我入职了一家前沿的具身智能公司，负责核心的数采系统基础设施研发。</p><p>如果只看这些履历的切片，你或许会以为我是某个顶尖名校出身的“天之骄子”。但事实恰恰相反——我只是一个普通的本科生，没有读研，毕业于江苏一所普通的二本院校：常熟理工学院（现更名为苏州工学院），软件工程专业。</p><p>在人才济济的具身智能赛道，我所在的公司里遍地都是985、211的本硕毕业生。按照常规的招聘筛选漏斗，在简历初筛的那一关，他们甚至不需要看我一眼。</p><p>可为什么，偏偏是我站到了这里？</p><hr><h2 id="第一章-选最难的路-做最笨的挑战者" tabindex="-1">第一章：选最难的路，做最笨的挑战者 <a class="header-anchor" href="#第一章-选最难的路-做最笨的挑战者" aria-label="Permalink to &quot;第一章：选最难的路，做最笨的挑战者&quot;">​</a></h2><p>很多人不理解我的选择逻辑。因为从小到大，我似乎总是在做一些“反直觉”的决定。</p><p>高中文理分科那年，我的化学成绩相当好，经常能考到90分甚至满分。按理说，死守化学基本盘是最稳妥的策略。但那时的我却产生了一个大胆甚至有些莽撞的念头：“既然化学已经蛮好了，为什么不去挑战一下我最敬畏的短板？”于是，我放下了拿手的化学，转身选了“物生地”——去死磕我当时一塌糊涂的物理和地理。</p><p>结果可想而知，地理这门学科像一个充满玄学的迷宫，似乎每一个选项都能从不同角度自圆其说，它狠狠地惩罚了我的傲慢，也让我的高考成绩并不算理想。</p><p>旁人或许觉得这人实在太傻：放着阳关道不走，非要去闯独木桥。但现在回头看，正是那次看似“失败”的选科，在我心里埋下了一颗至关重要的种子——<strong>人生不在于守成，而在于挑战。</strong></p><p>2022年，20岁的我曾在博客里写下：“2022，只不过是一串整数型常量而已。”那时的我看着同龄人的才智，也曾因为自己的一无所长而感到深深的自卑与焦虑。</p><p>直到大一下学期，我还在用最基础的 HTML、jQuery 配合 PHP 写一些简单的网页，满世界去找 MDUI 这样的现成组件库来拼凑界面。当时我连一个标准的 Vue 3 项目都跑不起来，看着满屏的报错只觉得寸步难行；甚至在用 Git 的时候，我根本不知道有命令行这回事，每次更新代码，都是笨拙地把文件夹打包成压缩包，再通过网页端手动上传。</p><p>“不应该这样子吧？”我对自己说。</p><p>如果不去触碰那些让我感到痛苦和陌生的技术，我永远只能留在原地。从2023年那片“野火燃烧的土壤”开始，我逼着自己彻底抛弃过去的思维惯性：从啃下命令行与 Git 工作流开始，我一头扎进了 Java、Vue、React、Python、Go 的世界；我不再满足于拼凑页面，而是对照着《使用Go自制解释器》，一行行代码写出属于自己的编程语言与编译器；我从一个坐在台下仰望别人的听众，蜕变成走上技术讲台分享 AI 与架构的组织者。</p><hr><h2 id="第二章-贵人引路-与跨越鸿沟的一跃" tabindex="-1">第二章：贵人引路，与跨越鸿沟的一跃 <a class="header-anchor" href="#第二章-贵人引路-与跨越鸿沟的一跃" aria-label="Permalink to &quot;第二章：贵人引路，与跨越鸿沟的一跃&quot;">​</a></h2><p>当然，人不能只靠埋头苦干。我始终怀着极大的敬畏与感恩承认：我能走到今天，离不开生命中那些拉我一把的“贵人”。</p><p>在大四下学期、大学即将步入尾声的时候，我非常幸运地结识了同样是微软学生大使的洪霄哥。是他作为引路人，带我推开了新世界的大门。当时他邀请我参与江南大学的一个机器人研学项目，负责打造一套 Web 检测的可视化页面，并且这个项目最终还要登上央视。</p><p>看着眼前的需求，我心里其实是发怵的。我过往积累的专业知识，与这个机器人项目所需要的领域之间，似乎横亘着一道巨大的鸿沟。</p><p>那天晚上，我在心里反复挣扎：<em>“我要不要去？万一我搞砸了怎么办？如果我把一切弄得一团糟，所有的责难是不是都会归咎于我？”</em></p><p>那是人性中最本能的退缩。但万幸的是，我没有允许自己继续想下去。我对自己说：人生在于挑战，既然洪霄哥敢给你机会，你就只管往前跳！正是那次硬着头皮的纵身一跃，不仅让我圆满完成了那套登上央视的 Web 检测可视化系统，更让我真正接触到了机器人与具身智能的世界，成为我后来叩开如今这家具身智能公司大门、在众多名校硕博中脱颖而出的关键契机。</p><p>同样的幸运，也发生在鸿蒙生态的旅途中。在我冲击华为开发者大会时，有马帅哥对我倾囊相助，手把手帮我梳理应用申报的每一个细节，让我的作品得以被官方看见。</p><hr><h2 id="第三章-2026年6月12日-台下的那句-why-not-me" tabindex="-1">第三章：2026年6月12日，台下的那句“Why Not Me?” <a class="header-anchor" href="#第三章-2026年6月12日-台下的那句-why-not-me" aria-label="Permalink to &quot;第三章：2026年6月12日，台下的那句“Why Not Me?”&quot;">​</a></h2><p>如果说有什么时刻，真正重塑了我的开发者灵魂，那一定是 <strong>2026年6月12日</strong>。</p><p>那天，我坐在 HDC 2026 第一天第一场活动的台下。舞台上的聚光灯璀璨夺目，现场正在介绍全新的空间音频特性，紧接着，一位学生开发者走上舞台，向全场展示他打造的应用《像素匠PRO》。</p><p>看着同龄人站在万人瞩目的舞台中央侃侃而谈，说不羡慕是假的。那种羡慕像一团火，烧得我手心发烫。</p><p>但在羡慕达到顶峰的那一秒，我坐在台下，脑海里突然无比清晰地响起了一连串声音——</p><blockquote><p><strong>“Why not me?”</strong><strong>“I’ve got the power. I’ve got the brains. I can make decisions. I can make my dreams come true. I can grow immensely in the next few years!”</strong></p></blockquote><p>就是这句灵魂深处的反问——<strong>“为什么不能是我？”</strong></p><p>那一刻的震动，直接催生了《有声有色》的诞生。回到住处后，我不再给自己设限，开始在鸿蒙端侧尝试以前想都不敢想的硬核技术：直接在端侧跑通 AI 模型、引入空间音频、用 AR 和 3D 重构完全不一样的交互体验……</p><p>正是这股不服输的闯劲，让华为应用市场的人发现了我，让《有声有色》与《减法购物车》双双拿下了最高级别的宣传资源，也让我收获了大批真实用户的喜爱。</p><hr><h2 id="尾声-所谓-配得感-是把运气变成实力" tabindex="-1">尾声：所谓“配得感”，是把运气变成实力 <a class="header-anchor" href="#尾声-所谓-配得感-是把运气变成实力" aria-label="Permalink to &quot;尾声：所谓“配得感”，是把运气变成实力&quot;">​</a></h2><p>今天，很多人喜欢谈论一个词，叫作**“配得感”**。</p><p>感谢鸿蒙生态，感谢洪霄哥、马帅哥和一路走来所有的贵人，但走到今天，我也想真诚地感谢那个没有在困难面前退缩的自己。</p><p>我依然百分百地承认：在我的故事里，运气和幸运占了极大的比重。没有贵人的扶持、没有时代的浪潮，我可能依然只是千千万万普通毕业生中沉默的一员。</p><p>但我也比任何时候都更加坚信另一句话：<strong>运气决定了机遇会不会降临，而你过往每一次跳出舒适圈的自我迭代，决定了当机遇与你擦肩而过时，你有没有敏锐的眼光去发现它，有没有足够结实的双手去死死抓住它。</strong></p><p>如果你也曾因为出身普通而自我怀疑，如果你正站在某个陌生的技术或人生路口犹豫不决，请替我问自己一句：</p><p><strong>“Why not me?”</strong></p><!--]--><!--[--><!--]--><!--]--><!----><!----></article></div><!--[--><!--]--><!--]--><!--[--><!--]--><!--[--><!--]--><!--[--><!--]--><!----><!--[--><!--]--><!--]--><!--[--><!--]--></div><!--]--></div><aside class="ed-aside"><!----></aside></div><nav class="ed-adjacent" aria-label="相邻文章"><a href="/posts/the-making-of-a-show-robot" class=""><span>上一篇</span>承诺的安魂曲：来自“创新”熔炉的笔记</a><a href="/posts/2022-summary" class=""><span>下一篇</span>2022，只不过是一串整数型常量而已。</a></nav></article></main><!--]--></div><footer class="ed-footer"><div><span>© 2016 · </span>Boyang Yu/Okysu<p>为吾为枝，余地三尺，以己为棋，胜天半子。</p></div><div class="ed-footer-links"><a href="https://beian.miit.gov.cn/" rel="noreferrer">苏ICP备2021011781号</a><a href="https://valaxy.site">Valaxy</a><span aria-hidden="true">/</span><span>Editorial</span></div></footer></div><!--]--></div><script>window.__INITIAL_STATE__='{"pinia":{"app":{"showLoading":true},"routerStore":{}}}'</script><script type="application/ld+json" data-hid="schema-org-graph">{"@context":"https://schema.org","@graph":[{"@id":"https://blog.yby.zone/#identity","@type":"Person","name":"Boyang Yu/Okysu","url":"https://blog.yby.zone/","image":{"@id":"https://blog.yby.zone/#/schema/image/1"},"sameAs":["/atom.xml","https://github.com/Okysu","mailto:yby@ecanse.com","https://mvp.microsoft.com/zh-CN/studentambassadors/profile/1cba6b30-3e38-4959-9863-c8cd7ee9e133"]},{"@id":"https://blog.yby.zone/#website","@type":"WebSite","dateModified":"2026-10-25T12:11:09+08:00","datePublished":"2026-10-25T12:11:09+08:00","inLanguage":"zh-CN","name":"为什么不是我？——一个二本开发者的“逆行”与破壁之路","url":"https://blog.yby.zone/","publisher":{"@id":"https://blog.yby.zone/#identity"}},{"@id":"https://blog.yby.zone/posts/why-not-me-developer-journey#webpage","@type":"WebPage","description":"为吾为枝，余地三尺，以己为棋，胜天半子。","name":"为什么不是我？——一个二本开发者的“逆行”与破壁之路","url":"https://blog.yby.zone/posts/why-not-me-developer-journey","isPartOf":{"@id":"https://blog.yby.zone/#website"},"potentialAction":[{"@type":"ReadAction","target":["https://blog.yby.zone/posts/why-not-me-developer-journey"]}]},{"@id":"https://blog.yby.zone/#/schema/image/1","@type":"ImageObject","contentUrl":"https://yby-zone.obs.cn-east-3.myhuaweicloud.com/avatar.jpg","inLanguage":"zh-CN","url":"https://yby-zone.obs.cn-east-3.myhuaweicloud.com/avatar.jpg"}]}</script>
+  <div id="valaxy-teleports"></div>
+  
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html  lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon.svg">
+    <script>
+    ;(function () {
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+    </script>
+  <style type="text/css">
+    :root { color-scheme: light dark; --va-c-bg: #fff; }
+    html.dark { --va-c-bg: #000; }
+    html { background-color: var(--va-c-bg); }
+  </style><style id="valaxy-fouc">body{opacity:0!important}</style><style>body{transition:opacity .15s ease}</style><noscript><style>body{opacity:1!important}</style></noscript><script>(function foucGuardScript(maxDuration) {
+  var done = 0;
+  function reveal() {
+    if (done) return;
+    done = 1;
+    var s = document.getElementById("valaxy-fouc");
+    if (s) s.remove();
+  }
+  function check() {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      if (!links[i].sheet) return;
+    }
+    reveal();
+  }
+  new MutationObserver(check).observe(document.head, {
+    childList: true,
+    attributes: true,
+    attributeFilter: ["media", "rel"]
+  });
+  addEventListener("load", reveal);
+  if (maxDuration)
+    setTimeout(reveal, maxDuration);
+})(5000)</script>
+    <script>
+    const locale = localStorage.getItem('valaxy-locale') || 'zh-CN';
+    document.documentElement.setAttribute('lang', locale);
+    </script>
+    
+  <script type="module" crossorigin src="/assets/index.C5ul-Ma4.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime.COiEfhsA.js">
+  <link rel="modulepreload" crossorigin href="/assets/framework.DbXEvxYr.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-i18n.B-v5q_Rk.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-router.D6rIZJub.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/dayjs.CE09CbxT.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/pinia.BsAj_aE7.js">
+  <link rel="modulepreload" crossorigin href="/assets/theme.Cb73jhYh.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/nprogress.DWZypiuu.js">
+  <link rel="stylesheet" crossorigin href="/assets/style.W5v513Ca.css">
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.DMm9YOAa.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Cx986IdX.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Jm3AIy58.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.BMLOBm91.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.B22Nviop.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.Dr94JaBh.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.t53AETM-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.DA0__PXp.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D3wIWfF6.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D5yQViql.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.C195tn64.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.oD1tc_U0.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size3-Regular.CTq5MqoE.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.BF-4gkZK.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff" as="font" type="font/woff" crossorigin>
+<link rel="modulepreload" crossorigin href="/assets/theme.Cb73jhYh.js">
+<link rel="modulepreload" crossorigin href="/assets/2022-summary.B_yYogTO.js">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2022，只不过是一串整数型常量而已。 - 小于同学的异世界</title>
+<meta property="og:locale:alternate" content="en">
+<meta name="description" content="为吾为枝，余地三尺，以己为棋，胜天半子。">
+<meta property="og:description" content="20岁的我，对自己的能力不足感到自卑和遗憾。时光如白驹过隙，让我回忆起18岁时的心境，问爸爸：“你成年时焦虑吗？”看着同龄人的才智、年长者的成就和小孩子的创造力，我发现自己一无所长。我幻想过改变世界，但现实中的困境让我困惑不解。在自我批评的同时，我也意识到人生不完美，应接受自己。我不再追求完美，而是感激生命中所经历的人和事。如今20岁的我，怀着新的希望启程，准备掌握属于自己的玫瑰色生活。我并不知道人生终点在何处，但我相信，在剧终后我会感谢所有变量和关键人物。">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:site_name" content="小于同学的异世界">
+<meta property="og:title" content="2022，只不过是一串整数型常量而已。">
+<meta property="og:image" content="https://yby-zone.obs.cn-east-3.myhuaweicloud.com/images/1673001914_kXWwvk9MlPx.png">
+<meta property="og:image:alt" content="2022，只不过是一串整数型常量而已。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://blog.yby.zone/posts/2022-summary">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="20岁的我，对自己的能力不足感到自卑和遗憾。时光如白驹过隙，让我回忆起18岁时的心境，问爸爸：“你成年时焦虑吗？”看着同龄人的才智、年长者的成就和小孩子的创造力，我发现自己一无所长。我幻想过改变世界，但现实中的困境让我困惑不解。在自我批评的同时，我也意识到人生不完美，应接受自己。我不再追求完美，而是感激生命中所经历的人和事。如今20岁的我，怀着新的希望启程，准备掌握属于自己的玫瑰色生活。我并不知道人生终点在何处，但我相信，在剧终后我会感谢所有变量和关键人物。">
+<meta name="twitter:image" content="https://yby-zone.obs.cn-east-3.myhuaweicloud.com/images/1673001914_kXWwvk9MlPx.png">
+<meta name="twitter:title" content="2022，只不过是一串整数型常量而已。">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="generator" content="Valaxy 1.2.0">
+<link rel="canonical" href="https://blog.yby.zone/posts/2022-summary">
+</head>
+<body>
+  <div id="app"><!--[--><!--[--><!----><!--[--><!--]--><!----><!--]--><div class="ed-shell"><a class="ed-skip" href="#main-content">跳至正文</a><header class="ed-nav"><a href="/" class="ed-wordmark" aria-label="返回首页">Okysu<span aria-hidden="true">.</span></a><button class="ed-menu-button" aria-controls="editorial-navigation" aria-expanded="false">菜单</button><nav id="editorial-navigation" class="ed-nav-links" aria-label="主导航"><!--[--><a href="/" class=""><!--[-->首页<!--]--></a><a href="/archives/" class=""><!--[-->文章<!--]--></a><a href="/tags/" class=""><!--[-->标签<!--]--></a><a href="/categories/" class=""><!--[-->分类<!--]--></a><a href="/links/" class=""><!--[-->友链<!--]--></a><a href="/about/" class=""><!--[-->关于<!--]--></a><!--]--></nav><button class="ed-appearance" aria-label="切换浅色与深色外观" title="切换外观"><svg class="ed-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.9 13.2A9 9 0 0 1 10.8 3.1 9 9 0 1 0 20.9 13.2Z"></path></svg><svg class="ed-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"></path></svg></button></header><div id="main-content" tabindex="-1" class="ed-content"><!--[--><main><article class="ed-article ed-article-post"><header class="ed-article-header"><a href="/archives/" class="ed-back"> ← 所有文章 </a><div class="ed-article-meta"><time datetime="2023-01-01" class="ed-date">2023-01-01</time><!--[--><a href="/tags/?tag=2022" class="">2022</a><a href="/tags/?tag=2023" class="">2023</a><a href="/tags/?tag=%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93" class="">年度总结</a><!--]--><!----></div><h1>2022，只不过是一串整数型常量而已。</h1><!----></header><div class="ed-with-outline ed-reading-grid"><div class="ed-reading"><!--[--><div class="ed-main"><!--[--><!--[--><!--]--><!--[--><!--]--><!--[--><!--[--><aside class="ed-ai-summary" aria-label="AI 摘要"><p class="ed-ai-summary-label"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5Z"></path></svg> AI 摘要 </p><p class="ed-ai-summary-text">20岁的我，对自己的能力不足感到自卑和遗憾。时光如白驹过隙，让我回忆起18岁时的心境，问爸爸：“你成年时焦虑吗？”看着同龄人的才智、年长者的成就和小孩子的创造力，我发现自己一无所长。我幻想过改变世界，但现实中的困境让我困惑不解。在自我批评的同时，我也意识到人生不完美，应接受自己。我不再追求完美，而是感激生命中所经历的人和事。如今20岁的我，怀着新的希望启程，准备掌握属于自己的玫瑰色生活。我并不知道人生终点在何处，但我相信，在剧终后我会感谢所有变量和关键人物。</p></aside><!--]--><div class="markdown-body"><article class="markdown-body"><!--[--><!--[--><blockquote><p>我生来就是高山， 而不是溪流。我欲于群峰之巅，俯视平静的沟壑。我生来就是人杰而非草芥。我站在伟人之肩，藐视卑微的懦夫。</p></blockquote><p>时光如同白驹过隙，一霎那时间就送别了2022，迎来2023。没错，我即将20岁了，是大人了。但我依然像那年高三放学回家坐在父亲摩托车后面的18岁的自己一样。我无比清楚地记得，在当时我问了我爸一句话——「你成年的时候你焦虑吗？」。</p><p>突如其来的20岁和那年的18岁一样，我依然对成年后的自己的能力不足感到无比自卑和遗憾，即使我已经走过了我人生中的四分之一也可能是五分之一（当然可能是更多的，哈）。看着同龄人的才思敏捷、年长者的事业有成和小孩童的无限创造力，我深深地发觉，自己是如此一无是处。时至今日，原本某些柔软的东西也像胡茬一样开始变得硬邦邦，再也无法逆转。儿时经常左右的玩伴也早已失去了音讯，更因为家境、才识等原因出现了参差。还有联系的同学、朋友，他们也在他们擅长的地方发光发热，有人是交际花，有人是梦想追逐者，还有人是科研者。也还只剩下了我，整日抱着键盘，幻想改变世界。</p><p>「假如当初好好努力或者不学编程，会过得更好吗？」我不止一次又一次地询问自己，并幻想在另一个时空中于柏杨的境遇。人生就像玩文字冒险游戏，做着一个又一个选择，最后迎来属于自己的结果。让时光倒退到高中时代，在灰暗的中学时代，我也时常幻想着，如同漫画小说所书写的那样，过上玫瑰色般的校园生活，成为社交名人，在兴趣社团中发散思维，在体育运动中挥洒汗水，在文化学习中精进学业，最终成为社会栋梁。但世事难料，我拖着步伐踩着绊脚石把时光浪费在每一条岔路上，最终形成奇形怪状的自己。而我又始终不肯放下偏执和那渺小的希冀，一步步将自己拖入自我内耗的精神枷锁，重复着自己成就、自我幻想又自我幻灭。</p><p>在日常生活又或是生产活动，我似乎总是对自己的产物十分不满意，总是试图寻找更优美的措辞，更完善的解决方案，花大量的时间优化排版格式，做着无意义的事情，相反在重要的事情上又十分吝啬自己对时间的花费，也就是这样，我蹉跎了大量的时间。也许，我通过了这样的方式完成了很精美的报告，实现了很优秀的代码。但人生不会像创建Word文档那样，可以撤销可以恢复，不断地修正，从没有人有完美的人生与故事，我似乎应该向阿德勒所学习——「人的可爱之处便在于接受不完美的自己」。过去的事情，过去的人，就如同动力学的骨骼解算，连续的关节依次的运算，才计算到如今的自己。某个节点的偏差就会导致端点的大相径庭。对于人生，我无法撤销我所遇到的烦心事和无聊的人，也没有任何办法循环播放某段美好记忆。我无法经过修正我所遇到的一切来改变当下或者未来，那就让我来感谢我这人生轻小说中所出场的所有的关键人物和在此期间的复杂变量。我的想法与状态如同状态机一般不断从一种状态过渡到另一种状态，可惜其并非确定有限型。我的初态与期望相去甚远，所幸遇到了许多无法预测的可爱的人和事。</p><p>如今，我将抱着新的希冀启程，玫瑰色的生活也终将被我牢牢掌握手中，我将续写有限又无限的可能，直至我抵达人生终点。就像那天父亲回答我的那样——「反正你还年轻，人生有无限可能。」</p><p>我不知道到那时骨骼解算的终点在何处，但我想，当我的剧本落下帷幕时，我一定还会回忆并感谢此间登场的变量与关键人物，你们。</p><figure><img src="https://yby-zone.obs.cn-east-3.myhuaweicloud.com/images/1673001914_kXWwvk9MlPx.png" alt="微软学生大使礼物" loading="lazy" decoding="async" fetchpriority="low"></figure><figure><img src="https://yby-zone.obs.cn-east-3.myhuaweicloud.com/images/1673001934_jdtwTvxvVPa.png" alt="微软学生大使礼物" loading="lazy" decoding="async" fetchpriority="low"></figure><figure><img src="https://yby-zone.obs.cn-east-3.myhuaweicloud.com/images/1673002169_rnxVBPyjaNt.png" alt="我自己的框架" loading="lazy" decoding="async" fetchpriority="low"></figure><!--]--><!--[--><!--]--><!--]--><!----><!----></article></div><!--[--><!--]--><!--]--><!--[--><!--]--><!--[--><!--]--><!--[--><!--]--><!----><!--[--><!--]--><!--]--><!--[--><!--]--></div><!--]--></div><aside class="ed-aside"><!----></aside></div><nav class="ed-adjacent" aria-label="相邻文章"><a href="/posts/why-not-me-developer-journey" class=""><span>上一篇</span>为什么不是我？——一个二本开发者的“逆行”与破壁之路</a><a href="/posts/2023-summary" class=""><span>下一篇</span>2023，是我野火燃烧的土壤。</a></nav></article></main><!--]--></div><footer class="ed-footer"><div><span>© 2016 · </span>Boyang Yu/Okysu<p>为吾为枝，余地三尺，以己为棋，胜天半子。</p></div><div class="ed-footer-links"><a href="https://beian.miit.gov.cn/" rel="noreferrer">苏ICP备2021011781号</a><a href="https://valaxy.site">Valaxy</a><span aria-hidden="true">/</span><span>Editorial</span></div></footer></div><!--]--></div><script>window.__INITIAL_STATE__='{"pinia":{"app":{"showLoading":true},"routerStore":{}}}'</script><script type="application/ld+json" data-hid="schema-org-graph">{"@context":"https://schema.org","@graph":[{"@id":"https://blog.yby.zone/#identity","@type":"Person","name":"Boyang Yu/Okysu","url":"https://blog.yby.zone/","image":{"@id":"https://blog.yby.zone/#/schema/image/1"},"sameAs":["/atom.xml","https://github.com/Okysu","mailto:yby@ecanse.com","https://mvp.microsoft.com/zh-CN/studentambassadors/profile/1cba6b30-3e38-4959-9863-c8cd7ee9e133"]},{"@id":"https://blog.yby.zone/#website","@type":"WebSite","dateModified":"2023-01-01T00:00:00.000Z","datePublished":"2023-01-01T00:00:00.000Z","inLanguage":"zh-CN","name":"2022，只不过是一串整数型常量而已。","url":"https://blog.yby.zone/","publisher":{"@id":"https://blog.yby.zone/#identity"}},{"@id":"https://blog.yby.zone/posts/2022-summary#webpage","@type":"WebPage","description":"为吾为枝，余地三尺，以己为棋，胜天半子。","name":"2022，只不过是一串整数型常量而已。","url":"https://blog.yby.zone/posts/2022-summary","isPartOf":{"@id":"https://blog.yby.zone/#website"},"potentialAction":[{"@type":"ReadAction","target":["https://blog.yby.zone/posts/2022-summary"]}]},{"@id":"https://blog.yby.zone/#/schema/image/1","@type":"ImageObject","contentUrl":"https://yby-zone.obs.cn-east-3.myhuaweicloud.com/avatar.jpg","inLanguage":"zh-CN","url":"https://yby-zone.obs.cn-east-3.myhuaweicloud.com/avatar.jpg"}]}</script>
+  <div id="valaxy-teleports"></div>
+  
+</body>
+</html>

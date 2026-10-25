@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>小于同学的异世界</title>
+        <link>https://blog.yby.zone/</link>
+        <description>为吾为枝，余地三尺，以己为棋，胜天半子。</description>
+        <lastBuildDate>Sun, 25 Oct 2026 04:53:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>小于同学的异世界</title>
+            <url>https://yby-zone.obs.cn-east-3.myhuaweicloud.com/avatar.jpg</url>
+            <link>https://blog.yby.zone/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2026 © Boyang Yu/Okysu</copyright>
+        <atom:link href="https://blog.yby.zone/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[为什么不是我？——一个二本开发者的“逆行”与破壁之路]]></title>
+            <link>https://blog.yby.zone/posts/why-not-me-developer-journey</link>
+            <guid isPermaLink="false">https://blog.yby.zone/posts/why-not-me-developer-journey</guid>
+            <pubDate>Sun, 25 Oct 2026 04:11:09 GMT</pubDate>
+            <content:encoded><![CDATA[<blockquote>
+<p><em>“我只知道一件事，那就是我一无所知。为吾为枝，余地三尺；以己为棋，胜天半子。”</em></p>
+</blockquote>
+<h2>序幕：聚光灯下的恍惚</h2>
+<p>我已经数不清，这是我的作品第几次登上华为应用市场的首页推荐了。</p>
+<p>过去这段时间</p>
+<br/><p>访问 <a href="https://blog.yby.zone/posts/why-not-me-developer-journey" target="_blank">https://blog.yby.zone/posts/why-not-me-developer-journey</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Boyang Yu/Okysu)</author>
+        </item>
+        <item>
+            <title><![CDATA[承诺的安魂曲：来自“创新”熔炉的笔记]]></title>
+            <link>https://blog.yby.zone/posts/the-making-of-a-show-robot</link>
+            <guid isPermaLink="false">https://blog.yby.zone/posts/the-making-of-a-show-robot</guid>
+            <pubDate>Thu, 24 Jul 2025 12:56:37 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>承诺的安魂曲：来自“创新”熔炉的笔记</h1>
+<h2>一、理想主义的序曲：象牙塔的承诺</h2>
+<p>在一切开始之前，空气中弥漫着一种几乎可以触摸到的、智识上的兴奋。那是一种属于创造前夜的、纯粹的乐观主义。故事的开</p>
+<br/><p>访问 <a href="https://blog.yby.zone/posts/the-making-of-a-show-robot" target="_blank">https://blog.yby.zone/posts/the-making-of-a-show-robot</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Boyang Yu/Okysu)</author>
+        </item>
+        <item>
+            <title><![CDATA[从 Augment 涨价说起：我在国产 AI 编程工具里"踩坑"的半个月]]></title>
+            <link>https://blog.yby.zone/posts/augment-price-hike-and-rl-reward-mechanism</link>
+            <guid isPermaLink="false">https://blog.yby.zone/posts/augment-price-hike-and-rl-reward-mechanism</guid>
+            <pubDate>Tue, 11 Feb 2025 15:30:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p><em>一位开发者在 Kimi、火山、GLM Coding Plan 深度体验后的思考</em></p>
+<hr>
+<p>最近 AI 编程圈最火的话题除了 GPT-5.3 和 Claude Opus 4.6 的&quot;神仙打架&quot;，大</p>
+<br/><p>访问 <a href="https://blog.yby.zone/posts/augment-price-hike-and-rl-reward-mechanism" target="_blank">https://blog.yby.zone/posts/augment-price-hike-and-rl-reward-mechanism</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Boyang Yu/Okysu)</author>
+        </item>
+        <item>
+            <title><![CDATA[7月，我失败，也失败。]]></title>
+            <link>https://blog.yby.zone/posts/2024-middle-year</link>
+            <guid isPermaLink="false">https://blog.yby.zone/posts/2024-middle-year</guid>
+            <pubDate>Wed, 07 Aug 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>距离我上一次写一些小想法已经过去大概七个多月了，应该还是上次跨年所写的。回顾我上一篇随笔——[2023，是我野火燃烧的土壤。](<a href="https://blog.yby.zone/posts/2023-su">https://blog.yby.zone/posts/2023-su</a></p>
+<br/><p>访问 <a href="https://blog.yby.zone/posts/2024-middle-year" target="_blank">https://blog.yby.zone/posts/2024-middle-year</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Boyang Yu/Okysu)</author>
+        </item>
+        <item>
+            <title><![CDATA[Go语言打造自己的解释器：我的1y-Language的奇妙冒险]]></title>
+            <link>https://blog.yby.zone/posts/make-interpreter-myself</link>
+            <guid isPermaLink="false">https://blog.yby.zone/posts/make-interpreter-myself</guid>
+            <pubDate>Mon, 22 Jul 2024 14:54:18 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>灵感的火花</h2>
+<p>首先，我要向Thorsten Ball致敬。是他的《用Go语言自制解释器》这本书点燃了我的灵感之火。读完这本书后，我想：&quot;嘿，为什么不自己也来一次呢？&quot;于是，1y-Languag</p>
+<br/><p>访问 <a href="https://blog.yby.zone/posts/make-interpreter-myself" target="_blank">https://blog.yby.zone/posts/make-interpreter-myself</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Boyang Yu/Okysu)</author>
+        </item>
+        <item>
+            <title><![CDATA[歪比歪的Python入门手册]]></title>
+            <link>https://blog.yby.zone/posts/quickstart-python</link>
+            <guid isPermaLink="false">https://blog.yby.zone/posts/quickstart-python</guid>
+            <pubDate>Thu, 07 Mar 2024 15:09:50 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>基础语法</h2>
+<h3>注释</h3>
+<p>Python的注释和C的注释类似，Python使用以#开头的单行注释，也支持以'''或&quot;&quot;&quot;开头和以'''或&quot;&quot;&quot;结尾的多行注释。</p>
+<pre><code class="language-python"># 这是单</code></pre>
+<br/><p>访问 <a href="https://blog.yby.zone/posts/quickstart-python" target="_blank">https://blog.yby.zone/posts/quickstart-python</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Boyang Yu/Okysu)</author>
+        </item>
+        <item>
+            <title><![CDATA[2023，是我野火燃烧的土壤。]]></title>
+            <link>https://blog.yby.zone/posts/2023-summary</link>
+            <guid isPermaLink="false">https://blog.yby.zone/posts/2023-summary</guid>
+            <pubDate>Sun, 31 Dec 2023 14:32:10 GMT</pubDate>
+            <content:encoded><![CDATA[<p>2023年，似乎是关于“重启”的一年。结束了长达3年的疫情。我们摘下口罩，呼吸大口空气，终于有机会再次出发，踏遍山野，似乎一切都回到了疫情之前平静祥和的时光。有序的时间之上是我们参差的生活，变化与静</p>
+<br/><p>访问 <a href="https://blog.yby.zone/posts/2023-summary" target="_blank">https://blog.yby.zone/posts/2023-summary</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Boyang Yu/Okysu)</author>
+        </item>
+        <item>
+            <title><![CDATA[JS 性能利器！ Web Worker怎么用!]]></title>
+            <link>https://blog.yby.zone/posts/js-worker</link>
+            <guid isPermaLink="false">https://blog.yby.zone/posts/js-worker</guid>
+            <pubDate>Fri, 01 Sep 2023 07:23:03 GMT</pubDate>
+            <content:encoded><![CDATA[<p>::: warning<br>
+这是我初学Typescript的时候写的一个小例子，使用了any类型，这种写法并不推荐，后续我会更新一个更好的例子。<br>
+:::</p>
+<h2>Worker 是什么？</h2>
+<p>Web wor</p>
+<br/><p>访问 <a href="https://blog.yby.zone/posts/js-worker" target="_blank">https://blog.yby.zone/posts/js-worker</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Boyang Yu/Okysu)</author>
+        </item>
+        <item>
+            <title><![CDATA[Springboot业务异常全局Handler]]></title>
+            <link>https://blog.yby.zone/posts/spring-global-error</link>
+            <guid isPermaLink="false">https://blog.yby.zone/posts/spring-global-error</guid>
+            <pubDate>Fri, 01 Sep 2023 07:23:03 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>添加异常处理器</h2>
+<pre><code class="language-java">import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.spr</code></pre>
+<br/><p>访问 <a href="https://blog.yby.zone/posts/spring-global-error" target="_blank">https://blog.yby.zone/posts/spring-global-error</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Boyang Yu/Okysu)</author>
+        </item>
+        <item>
+            <title><![CDATA[Vue3 经常用到的一些小技巧]]></title>
+            <link>https://blog.yby.zone/posts/vue-basic-learning</link>
+            <guid isPermaLink="false">https://blog.yby.zone/posts/vue-basic-learning</guid>
+            <pubDate>Fri, 01 Sep 2023 07:23:03 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Vue Router + Vite 没有设定的路由加载404页面</h2>
+<pre><code class="language-ts">{
+    path: '/:pathMatch(.*)*',
+    name: &quot;404&quot;,
+    met</code></pre>
+<br/><p>访问 <a href="https://blog.yby.zone/posts/vue-basic-learning" target="_blank">https://blog.yby.zone/posts/vue-basic-learning</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Boyang Yu/Okysu)</author>
+        </item>
+        <item>
+            <title><![CDATA[2022，只不过是一串整数型常量而已。]]></title>
+            <link>https://blog.yby.zone/posts/2022-summary</link>
+            <guid isPermaLink="false">https://blog.yby.zone/posts/2022-summary</guid>
+            <pubDate>Sun, 01 Jan 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<blockquote>
+<p>我生来就是高山， 而不是溪流。我欲于群峰之巅，俯视平静的沟壑。我生来就是人杰而非草芥。我站在伟人之肩，藐视卑微的懦夫。</p>
+</blockquote>
+<p>时光如同白驹过隙，一霎那时间就送别了2022，迎来2023。没错，我即将</p>
+<br/><p>访问 <a href="https://blog.yby.zone/posts/2022-summary" target="_blank">https://blog.yby.zone/posts/2022-summary</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (Boyang Yu/Okysu)</author>
+        </item>
+    </channel>
+</rss>

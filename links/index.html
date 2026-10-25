@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html  lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon.svg">
+    <script>
+    ;(function () {
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+    </script>
+  <style type="text/css">
+    :root { color-scheme: light dark; --va-c-bg: #fff; }
+    html.dark { --va-c-bg: #000; }
+    html { background-color: var(--va-c-bg); }
+  </style><style id="valaxy-fouc">body{opacity:0!important}</style><style>body{transition:opacity .15s ease}</style><noscript><style>body{opacity:1!important}</style></noscript><script>(function foucGuardScript(maxDuration) {
+  var done = 0;
+  function reveal() {
+    if (done) return;
+    done = 1;
+    var s = document.getElementById("valaxy-fouc");
+    if (s) s.remove();
+  }
+  function check() {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      if (!links[i].sheet) return;
+    }
+    reveal();
+  }
+  new MutationObserver(check).observe(document.head, {
+    childList: true,
+    attributes: true,
+    attributeFilter: ["media", "rel"]
+  });
+  addEventListener("load", reveal);
+  if (maxDuration)
+    setTimeout(reveal, maxDuration);
+})(5000)</script>
+    <script>
+    const locale = localStorage.getItem('valaxy-locale') || 'zh-CN';
+    document.documentElement.setAttribute('lang', locale);
+    </script>
+    
+  <script type="module" crossorigin src="/assets/index.C5ul-Ma4.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime.COiEfhsA.js">
+  <link rel="modulepreload" crossorigin href="/assets/framework.DbXEvxYr.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-i18n.B-v5q_Rk.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-router.D6rIZJub.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/dayjs.CE09CbxT.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/pinia.BsAj_aE7.js">
+  <link rel="modulepreload" crossorigin href="/assets/theme.Cb73jhYh.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/nprogress.DWZypiuu.js">
+  <link rel="stylesheet" crossorigin href="/assets/style.W5v513Ca.css">
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.DMm9YOAa.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Cx986IdX.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Jm3AIy58.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.BMLOBm91.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.B22Nviop.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.Dr94JaBh.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.t53AETM-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.DA0__PXp.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D3wIWfF6.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D5yQViql.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.C195tn64.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.oD1tc_U0.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size3-Regular.CTq5MqoE.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.BF-4gkZK.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff" as="font" type="font/woff" crossorigin>
+<link rel="modulepreload" crossorigin href="/assets/theme.Cb73jhYh.js">
+<link rel="modulepreload" crossorigin href="/assets/links.jsXGrD8o.js">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>我的小伙伴们 - 小于同学的异世界</title>
+<meta property="og:locale:alternate" content="en">
+<meta name="description" content="云游的小伙伴们">
+<meta property="og:description" content="云游的小伙伴们">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:site_name" content="小于同学的异世界">
+<meta property="og:title" content="我的小伙伴们">
+<meta property="og:image" content="https://blog.yby.zone/favicon.svg">
+<meta property="og:image:alt" content="我的小伙伴们">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://blog.yby.zone/links/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="云游的小伙伴们">
+<meta name="twitter:image" content="https://blog.yby.zone/favicon.svg">
+<meta name="twitter:title" content="我的小伙伴们">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="generator" content="Valaxy 1.2.0">
+<link rel="canonical" href="https://blog.yby.zone/links/">
+</head>
+<body>
+  <div id="app"><!--[--><!--[--><!----><!--[--><!--]--><!----><!--]--><div class="ed-shell"><a class="ed-skip" href="#main-content">跳至正文</a><header class="ed-nav"><a href="/" class="ed-wordmark" aria-label="返回首页">Okysu<span aria-hidden="true">.</span></a><button class="ed-menu-button" aria-controls="editorial-navigation" aria-expanded="false">菜单</button><nav id="editorial-navigation" class="ed-nav-links" aria-label="主导航"><!--[--><a href="/" class=""><!--[-->首页<!--]--></a><a href="/archives/" class=""><!--[-->文章<!--]--></a><a href="/tags/" class=""><!--[-->标签<!--]--></a><a href="/categories/" class=""><!--[-->分类<!--]--></a><a aria-current="page" href="/links/" class="router-link-active router-link-exact-active"><!--[-->友链<!--]--></a><a href="/about/" class=""><!--[-->关于<!--]--></a><!--]--></nav><button class="ed-appearance" aria-label="切换浅色与深色外观" title="切换外观"><svg class="ed-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.9 13.2A9 9 0 0 1 10.8 3.1 9 9 0 1 0 20.9 13.2Z"></path></svg><svg class="ed-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"></path></svg></button></header><div id="main-content" tabindex="-1" class="ed-content"><!--[--><main><article class="ed-article"><header class="ed-article-header"><a href="/archives/" class="ed-back"> ← 所有文章 </a><!----><h1>我的小伙伴们</h1><p class="ed-subtitle">云游的小伙伴们</p></header><div class="ed-with-outline ed-reading-grid"><div class="ed-reading"><!--[--><div class="ed-main"><!--[--><!--[--><!--]--><!--[--><!--]--><!--[--><!--[--><!----><!--]--><div class="markdown-body"><article class="markdown-body"><!--[--><!--[--><ul class="ed-friends"><!--[--><li><a href="https://owomoe.net/" target="_blank" rel="noopener noreferrer" class="ed-friend"><span class="ed-friend-avatar" aria-hidden="true">皮 <!----></span><span class="ed-friend-copy"><strong>皮皮凛の小窝</strong><span class="ed-friend-name">皮皮凛</span><span class="ed-friend-description">永远相信美好的事情即将发生~</span></span><span class="ed-friend-arrow" aria-hidden="true">↗</span></a></li><li><a href="https://www.yunyoujun.cn/" target="_blank" rel="noopener noreferrer" class="ed-friend"><span class="ed-friend-avatar" aria-hidden="true">云 <!----></span><span class="ed-friend-copy"><strong>云游君的小站</strong><span class="ed-friend-name">云游君</span><span class="ed-friend-description">All at sea.</span></span><span class="ed-friend-arrow" aria-hidden="true">↗</span></a></li><li><a href="http://blog.suki.house/" target="_blank" rel="noopener noreferrer" class="ed-friend"><span class="ed-friend-avatar" aria-hidden="true">甘 <!----></span><span class="ed-friend-copy"><strong>秋风茶屋</strong><span class="ed-friend-name">甘乐樱KanraSAKURA</span><span class="ed-friend-description">以秋风之名 ~ 凛子的个人博客.</span></span><span class="ed-friend-arrow" aria-hidden="true">↗</span></a></li><li><a href="https://konfan.cn/" target="_blank" rel="noopener noreferrer" class="ed-friend"><span class="ed-friend-avatar" aria-hidden="true">婲 <!----></span><span class="ed-friend-copy"><strong>婲样女孩的小站</strong><span class="ed-friend-name">婲样女孩</span><span class="ed-friend-description">ε=(´ο｀*)))唉..好累啊</span></span><span class="ed-friend-arrow" aria-hidden="true">↗</span></a></li><li><a href="https://akagiyui.com/" target="_blank" rel="noopener noreferrer" class="ed-friend"><span class="ed-friend-avatar" aria-hidden="true">赤 <!----></span><span class="ed-friend-copy"><strong>赤城的部落格</strong><!----><span class="ed-friend-description">CN AkagiYui 赤城结衣 · 软工专业.</span></span><span class="ed-friend-arrow" aria-hidden="true">↗</span></a></li><li><a href="https://www.15110y.top/" target="_blank" rel="noopener noreferrer" class="ed-friend"><span class="ed-friend-avatar" aria-hidden="true">A <!----></span><span class="ed-friend-copy"><strong>Aлексей</strong><!----><span class="ed-friend-description">15110y · 无锡 · 微电子科学与工程</span></span><span class="ed-friend-arrow" aria-hidden="true">↗</span></a></li><li><a href="https://ayk.moe/" target="_blank" rel="noopener noreferrer" class="ed-friend"><span class="ed-friend-avatar" aria-hidden="true">K <!----></span><span class="ed-friend-copy"><strong>Ayakaの部屋</strong><span class="ed-friend-name">Kiritani Ayaka</span><span class="ed-friend-description">桐谷彩花（きりたに あやか / KiritaniAyaka）</span></span><span class="ed-friend-arrow" aria-hidden="true">↗</span></a></li><li><a href="https://www.ucu520.top/" target="_blank" rel="noopener noreferrer" class="ed-friend"><span class="ed-friend-avatar" aria-hidden="true">U <!----></span><span class="ed-friend-copy"><strong>开心Ucu</strong><span class="ed-friend-name">UcU</span><span class="ed-friend-description">开心Ucu</span></span><span class="ed-friend-arrow" aria-hidden="true">↗</span></a></li><li><a href="https://www.liveout.cn/" target="_blank" rel="noopener noreferrer" class="ed-friend"><span class="ed-friend-avatar" aria-hidden="true">E <!----></span><span class="ed-friend-copy"><strong>Echo小窝</strong><!----><span class="ed-friend-description">···重度精神内耗患者···</span></span><span class="ed-friend-arrow" aria-hidden="true">↗</span></a></li><!--]--></ul><!--]--><!--[--><!--]--><!--]--><!----><!----></article></div><!--[--><!--]--><!--]--><!--[--><!--]--><!--[--><!--]--><!--[--><!--]--><!----><!--[--><!--]--><!--]--><!--[--><!--]--></div><!--]--></div><aside class="ed-aside"><!----></aside></div><!----></article></main><!--]--></div><footer class="ed-footer"><div><span>© 2016 · </span>Boyang Yu/Okysu<p>为吾为枝，余地三尺，以己为棋，胜天半子。</p></div><div class="ed-footer-links"><a href="https://beian.miit.gov.cn/" rel="noreferrer">苏ICP备2021011781号</a><a href="https://valaxy.site">Valaxy</a><span aria-hidden="true">/</span><span>Editorial</span></div></footer></div><!--]--></div><script>window.__INITIAL_STATE__='{"pinia":{"app":{"showLoading":true},"routerStore":{}}}'</script><script type="application/ld+json" data-hid="schema-org-graph">{"@context":"https://schema.org","@graph":[{"@id":"https://blog.yby.zone/#identity","@type":"Person","name":"Boyang Yu/Okysu","url":"https://blog.yby.zone/","image":{"@id":"https://blog.yby.zone/#/schema/image/1"},"sameAs":["/atom.xml","https://github.com/Okysu","mailto:yby@ecanse.com","https://mvp.microsoft.com/zh-CN/studentambassadors/profile/1cba6b30-3e38-4959-9863-c8cd7ee9e133"]},{"@id":"https://blog.yby.zone/#website","@type":"WebSite","dateModified":"2023-09-01T07:23:03.000Z","datePublished":"2023-09-01T07:23:03.000Z","inLanguage":"zh-CN","name":"我的小伙伴们","url":"https://blog.yby.zone/","publisher":{"@id":"https://blog.yby.zone/#identity"}},{"@id":"https://blog.yby.zone/links/#webpage","@type":"WebPage","description":"云游的小伙伴们","name":"我的小伙伴们","url":"https://blog.yby.zone/links/","isPartOf":{"@id":"https://blog.yby.zone/#website"},"potentialAction":[{"@type":"ReadAction","target":["https://blog.yby.zone/links/"]}]},{"@id":"https://blog.yby.zone/#/schema/image/1","@type":"ImageObject","contentUrl":"https://yby-zone.obs.cn-east-3.myhuaweicloud.com/avatar.jpg","inLanguage":"zh-CN","url":"https://yby-zone.obs.cn-east-3.myhuaweicloud.com/avatar.jpg"}]}</script>
+  <div id="valaxy-teleports"></div>
+  
+</body>
+</html>

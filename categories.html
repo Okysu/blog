@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html  lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon.svg">
+    <script>
+    ;(function () {
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+    </script>
+  <style type="text/css">
+    :root { color-scheme: light dark; --va-c-bg: #fff; }
+    html.dark { --va-c-bg: #000; }
+    html { background-color: var(--va-c-bg); }
+  </style><style id="valaxy-fouc">body{opacity:0!important}</style><style>body{transition:opacity .15s ease}</style><noscript><style>body{opacity:1!important}</style></noscript><script>(function foucGuardScript(maxDuration) {
+  var done = 0;
+  function reveal() {
+    if (done) return;
+    done = 1;
+    var s = document.getElementById("valaxy-fouc");
+    if (s) s.remove();
+  }
+  function check() {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      if (!links[i].sheet) return;
+    }
+    reveal();
+  }
+  new MutationObserver(check).observe(document.head, {
+    childList: true,
+    attributes: true,
+    attributeFilter: ["media", "rel"]
+  });
+  addEventListener("load", reveal);
+  if (maxDuration)
+    setTimeout(reveal, maxDuration);
+})(5000)</script>
+    <script>
+    const locale = localStorage.getItem('valaxy-locale') || 'zh-CN';
+    document.documentElement.setAttribute('lang', locale);
+    </script>
+    
+  <script type="module" crossorigin src="/assets/index.C5ul-Ma4.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime.COiEfhsA.js">
+  <link rel="modulepreload" crossorigin href="/assets/framework.DbXEvxYr.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-i18n.B-v5q_Rk.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-router.D6rIZJub.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/dayjs.CE09CbxT.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/pinia.BsAj_aE7.js">
+  <link rel="modulepreload" crossorigin href="/assets/theme.Cb73jhYh.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/nprogress.DWZypiuu.js">
+  <link rel="stylesheet" crossorigin href="/assets/style.W5v513Ca.css">
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.DMm9YOAa.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Cx986IdX.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Jm3AIy58.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.BMLOBm91.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.B22Nviop.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.Dr94JaBh.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.t53AETM-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.DA0__PXp.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D3wIWfF6.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D5yQViql.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.C195tn64.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.oD1tc_U0.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size3-Regular.CTq5MqoE.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.BF-4gkZK.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff" as="font" type="font/woff" crossorigin>
+<link rel="modulepreload" crossorigin href="/assets/theme.Cb73jhYh.js">
+<link rel="modulepreload" crossorigin href="/assets/categories.aWkTIF-A.js">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>小于同学的异世界</title>
+<meta property="og:locale:alternate" content="en">
+<meta name="description" content="为吾为枝，余地三尺，以己为棋，胜天半子。">
+<meta property="og:description" content="为吾为枝，余地三尺，以己为棋，胜天半子。">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:site_name" content="小于同学的异世界">
+<meta property="og:title" content="小于同学的异世界">
+<meta property="og:image" content="https://blog.yby.zone/favicon.svg">
+<meta property="og:image:alt" content="小于同学的异世界">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://blog.yby.zone/categories">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="为吾为枝，余地三尺，以己为棋，胜天半子。">
+<meta name="twitter:image" content="https://blog.yby.zone/favicon.svg">
+<meta name="twitter:title" content="小于同学的异世界">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="generator" content="Valaxy 1.2.0">
+<link rel="canonical" href="https://blog.yby.zone/categories">
+</head>
+<body>
+  <div id="app"><!--[--><!--[--><!----><!--[--><!--]--><!----><!--]--><div class="ed-shell"><a class="ed-skip" href="#main-content">跳至正文</a><header class="ed-nav"><a href="/" class="ed-wordmark" aria-label="返回首页">Okysu<span aria-hidden="true">.</span></a><button class="ed-menu-button" aria-controls="editorial-navigation" aria-expanded="false">菜单</button><nav id="editorial-navigation" class="ed-nav-links" aria-label="主导航"><!--[--><a href="/" class=""><!--[-->首页<!--]--></a><a href="/archives/" class=""><!--[-->文章<!--]--></a><a href="/tags/" class=""><!--[-->标签<!--]--></a><a aria-current="page" href="/categories/" class="router-link-active router-link-exact-active"><!--[-->分类<!--]--></a><a href="/links/" class=""><!--[-->友链<!--]--></a><a href="/about/" class=""><!--[-->关于<!--]--></a><!--]--></nav><button class="ed-appearance" aria-label="切换浅色与深色外观" title="切换外观"><svg class="ed-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.9 13.2A9 9 0 0 1 10.8 3.1 9 9 0 1 0 20.9 13.2Z"></path></svg><svg class="ed-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"></path></svg></button></header><div id="main-content" tabindex="-1" class="ed-content"><!--[--><main class="ed-archive"><header class="ed-page-header"><p class="ed-eyebrow"> COLLECTIONS </p><h1>分类</h1><p class="ed-subtitle"> 把不同方向的文字，慢慢归在一起。 </p></header><div class="ed-main"><!--[--><!--[--><!--]--><!--[--><!--]--><!--[--><!--[--><!----><!--]--><div class="markdown-body"><article class="markdown-body"><!--[--><!--]--><!----><!----></article></div><!--[--><!--]--><!--]--><!--[--><!--]--><!--[--><!--]--><!--[--><!--]--><!----><!--[--><!--]--><!--]--><!--[--><!--]--></div><section class="ed-posts" aria-label="文章列表"><form role="search" class="ed-search"><label class="ed-sr-only" for="editorial-search">搜索文章</label><div class="ed-search-line"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 4 4"></path></svg><input id="editorial-search" value="" type="search" placeholder="找一个词，重访一段思考…" autocomplete="off"><!----><span class="ed-search-hint" aria-hidden="true">SEARCH</span></div><div class="ed-tag-filters" role="group" aria-label="按分类筛选"><button type="button" aria-pressed="true"> 全部 </button><!--[--><button type="button" aria-pressed="false">Java</button><button type="button" aria-pressed="false">Javascript</button><button type="button" aria-pressed="false">Python</button><button type="button" aria-pressed="false">QuickStart</button><button type="button" aria-pressed="false">Spring</button><button type="button" aria-pressed="false">Springboot</button><button type="button" aria-pressed="false">Typescript</button><!--]--><button type="button" class="ed-more-tags" aria-expanded="false">更多 +</button></div><!----></form><div class="ed-section-heading"><h2><span class="ed-section-index" aria-hidden="true">INDEX</span>所有文字</h2><span role="status" aria-live="polite">11 / 11 篇</span></div><ul class="ed-post-list"><!--[--><li><article class="ed-post-row"><div class="ed-post-side"><!----><time datetime="2024-08-07" class="ed-date">2024-08-07</time></div><div class="ed-post-summary"><div class="ed-post-meta"><span class="ed-pinned">置顶</span><!--[--><a href="/tags/?tag=2023" class="ed-tag">2023</a><a href="/tags/?tag=2024" class="ed-tag">2024</a><!--]--></div><h2><a href="/posts/2024-middle-year" class="">7月，我失败，也失败。</a></h2><p class="ed-excerpt">距离我上一次写一些小想法已经过去大概七个多月了，应该还是上次跨年所写的。回顾我上一篇随笔——2023，是我野火燃烧的土壤。，我提到2023年是属于我人生重启的一年，在那一年，我意识到自己所在时间的渺小，我也在那时起开始积极探索人生的无限可能。 在今年的除夕佳节，我也收到...</p><!----></div><span class="ed-row-arrow" aria-hidden="true">↗</span></article></li><li><article class="ed-post-row"><div class="ed-post-side"><!----><time datetime="2023-12-31" class="ed-date">2023-12-31</time></div><div class="ed-post-summary"><div class="ed-post-meta"><span class="ed-pinned">置顶</span><!--[--><a href="/tags/?tag=2023" class="ed-tag">2023</a><a href="/tags/?tag=2024" class="ed-tag">2024</a><!--]--></div><h2><a href="/posts/2023-summary" class="">2023，是我野火燃烧的土壤。</a></h2><p class="ed-excerpt">2023年，似乎是关于“重启”的一年。结束了长达3年的疫情。我们摘下口罩，呼吸大口空气，终于有机会再次出发，踏遍山野，似乎一切都回到了疫情之前平静祥和的时光。有序的时间之上是我们参差的生活，变化与静止、清晰与混沌、平常与无常。回望那些或是黯淡又或是明亮的日子，我该如何总结这纷繁的一年呢？ 这一年，对我来说是能量爆炸的一年。我终于懂得自爱，我开始欣赏自己，开...</p><!----></div><span class="ed-row-arrow" aria-hidden="true">↗</span></article></li><li><article class="ed-post-row"><div class="ed-post-side"><!----><time datetime="2023-01-01" class="ed-date">2023-01-01</time></div><div class="ed-post-summary"><div class="ed-post-meta"><span class="ed-pinned">置顶</span><!--[--><a href="/tags/?tag=2022" class="ed-tag">2022</a><a href="/tags/?tag=2023" class="ed-tag">2023</a><!--]--></div><h2><a href="/posts/2022-summary" class="">2022，只不过是一串整数型常量而已。</a></h2><p class="ed-excerpt">20岁的我，对自己的能力不足感到自卑和遗憾。时光如白驹过隙，让我回忆起18岁时的心境，问爸爸：“你成年时焦虑吗？”看着同龄人的才智、年长者的成就和小孩子的创造力，我发现自己一无所长。我幻想过改变世界，但现实中的困境让我困惑不解。在自我批评的同时，我也意识到人生不完美，应接受自己。我不再追求完美，而是感激生命中所经历的人和事。如今20岁的我，怀着新的希望启程，准备掌握属于自己的玫瑰色生活。我并不知道人生终点在何处，但我相信，在剧终后我会感谢所有变量和关键人物。</p><!----></div><span class="ed-row-arrow" aria-hidden="true">↗</span></article></li><li><article class="ed-post-row"><div class="ed-post-side"><!----><time datetime="2026-10-25" class="ed-date">2026-10-25</time></div><div class="ed-post-summary"><div class="ed-post-meta"><!----><!--[--><a href="/tags/?tag=%E6%88%90%E9%95%BF" class="ed-tag">成长</a><a href="/tags/?tag=%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91" class="ed-tag">独立开发</a><!--]--></div><h2><a href="/posts/why-not-me-developer-journey" class="">为什么不是我？——一个二本开发者的“逆行”与破壁之路</a></h2><p class="ed-excerpt">从普通二本院校走向鸿蒙独立开发与具身智能，这段经历并非一条预先规划好的坦途。从挑战短板、学习陌生技术，到在贵人的帮助下参与机器人项目，再到 HDC 台下那句“Why not me?”，一次次跨出舒适圈，让幸运逐渐转化为抓住机会的实力。这是对一路扶持的感恩，也是对那个始终愿意向前一步的自己的回答。</p><!----></div><span class="ed-row-arrow" aria-hidden="true">↗</span></article></li><li><article class="ed-post-row"><div class="ed-post-side"><!----><time datetime="2025-07-24" class="ed-date">2025-07-24</time></div><div class="ed-post-summary"><div class="ed-post-meta"><!----><!--[--><!--]--></div><h2><a href="/posts/the-making-of-a-show-robot" class="">承诺的安魂曲：来自“创新”熔炉的笔记</a></h2><p class="ed-excerpt">在一切开始之前，空气中弥漫着一种几乎可以触摸到的、智识上的兴奋。那是一种属于创造前夜的、纯粹的乐观主义。故事的开篇，是一幅由三方共同描绘的宏伟蓝图，一曲关于“产学研”合作的理想主义赞歌。 一方是高校J，在机械领域根基深厚，其齿轮与连杆的精密交响构成了工业的坚实骨架；另一方，是我们，来自高校W的一支团队，沉浸于软件与算法的无形世界，代码与逻辑是我们手中的刻刀...</p><!----></div><span class="ed-row-arrow" aria-hidden="true">↗</span></article></li><li><article class="ed-post-row"><div class="ed-post-side"><!----><time datetime="2025-02-11" class="ed-date">2025-02-11</time></div><div class="ed-post-summary"><div class="ed-post-meta"><!----><!--[--><a href="/tags/?tag=AI" class="ed-tag">AI</a><a href="/tags/?tag=%E7%BC%96%E7%A8%8B" class="ed-tag">编程</a><!--]--></div><h2><a href="/posts/augment-price-hike-and-rl-reward-mechanism" class="">从 Augment 涨价说起：我在国产 AI 编程工具里&quot;踩坑&quot;的半个月</a></h2><p class="ed-excerpt">一位开发者在 Kimi、火山、GLM Coding Plan 深度体验后的思考 --- 最近 AI 编程圈最火的话题除了 GPT-5.3 和 Claude Opus 4.6 的&quot;神仙打架&quot;，大概就是各家编程工具的持续涨价了。作为 Augment 的重度用户，虽然去年它从 50 刀涨到 60 刀时我还能接受，但随着使用频率的增加，每月积分从 500 次...</p><!----></div><span class="ed-row-arrow" aria-hidden="true">↗</span></article></li><li><article class="ed-post-row"><div class="ed-post-side"><!----><time datetime="2024-07-22" class="ed-date">2024-07-22</time></div><div class="ed-post-summary"><div class="ed-post-meta"><!----><!--[--><a href="/tags/?tag=Golang" class="ed-tag">Golang</a><a href="/tags/?tag=%E8%A7%A3%E9%87%8A%E5%99%A8" class="ed-tag">解释器</a><!--]--></div><h2><a href="/posts/make-interpreter-myself" class="">Go语言打造自己的解释器：我的1y-Language的奇妙冒险</a></h2><p class="ed-excerpt">首先，我要向Thorsten Ball致敬。是他的《用Go语言自制解释器》这本书点燃了我的灵感之火。读完这本书后，我想：&quot;嘿，为什么不自己也来一次呢？&quot;于是，1y-Language项目就这样诞生了。 但是，我可不想只是简单地照搬书中的例子。我心想：&quot;既然要做，那就要与众不同！&quot;所以，我在原版的基础上添加了一些新的关键字和特性，力求让1y-Language更...</p><!----></div><span class="ed-row-arrow" aria-hidden="true">↗</span></article></li><li><article class="ed-post-row"><div class="ed-post-side"><!----><time datetime="2024-03-07" class="ed-date">2024-03-07</time></div><div class="ed-post-summary"><div class="ed-post-meta"><!----><!--[--><a href="/tags/?tag=Python" class="ed-tag">Python</a><!--]--></div><h2><a href="/posts/quickstart-python" class="">歪比歪的Python入门手册</a></h2><p class="ed-excerpt">Python的注释和C的注释类似，Python使用以开头的单行注释，也支持以&#39;&#39;&#39;或&quot;&quot;&quot;开头和以&#39;&#39;&#39;或&quot;&quot;&quot;结尾的多行注释。 python &#39;&#39;&#39; 这是多行注释 &#39;&#39;&#39; Python使用缩进来表示代码块，而C使用大括号{}来表示代码块。Python的缩进可以使用空格或制表符，但不允许混用空格和制表符。Python的缩进一般使用4...</p><!----></div><span class="ed-row-arrow" aria-hidden="true">↗</span></article></li><li><article class="ed-post-row"><div class="ed-post-side"><!----><time datetime="2023-09-01" class="ed-date">2023-09-01</time></div><div class="ed-post-summary"><div class="ed-post-meta"><!----><!--[--><a href="/tags/?tag=Javascript" class="ed-tag">Javascript</a><a href="/tags/?tag=Web+Worker" class="ed-tag">Web Worker</a><!--]--></div><h2><a href="/posts/js-worker" class="">JS 性能利器！ Web Worker怎么用!</a></h2><p class="ed-excerpt">Web worker是一个在web应用程序中独立于主线程运行的线程。它的优点是可以将工作交给其他线程去做，不会阻塞主线程。然而，使用any类型的写法并不推荐。在使用Web worker时，需要创建主线程和子线程，并通过postMessage方法来传递消息。可以通过worker.terminate()方法销毁worker。除此之外，文章还提供了一个定时器的例子，展示了如何在主线程和子线程中创建和销毁定时器。对于Vue项目，可以使用import.meta.url和URL对象创建worker，并使用postMessage方法来操作定时器。但需要注意的是，文章中的代码可能不是最佳实践，作者承诺会更新更好的例子。</p><!----></div><span class="ed-row-arrow" aria-hidden="true">↗</span></article></li><li><article class="ed-post-row"><div class="ed-post-side"><!----><time datetime="2023-09-01" class="ed-date">2023-09-01</time></div><div class="ed-post-summary"><div class="ed-post-meta"><!----><!--[--><a href="/tags/?tag=Java" class="ed-tag">Java</a><a href="/tags/?tag=Spring" class="ed-tag">Spring</a><!--]--></div><h2><a href="/posts/spring-global-error" class="">Springboot业务异常全局Handler</a></h2><p class="ed-excerpt">我们可以通过添加异常处理器来处理系统中的异常。在GlobalExceptionHandler类中，使用@ControllerAdvice注解表示该类是一个控制器增强类，用于拦截其他控制器的异常。通过@ExceptionHandler注解指定需要处理的异常类型，并在方法中对异常进行处理，可以返回自定义的错误页面或JSON数据。在GlobalExceptionHandler类中，我们对所有的异常都返回&quot;System error&quot;。在测试异常获取的例子中，当访问/error路径时会发生除以0的异常，返回&quot;不可以除以0哦&quot;。</p><!----></div><span class="ed-row-arrow" aria-hidden="true">↗</span></article></li><li><article class="ed-post-row"><div class="ed-post-side"><!----><time datetime="2023-09-01" class="ed-date">2023-09-01</time></div><div class="ed-post-summary"><div class="ed-post-meta"><!----><!--[--><a href="/tags/?tag=Vue" class="ed-tag">Vue</a><a href="/tags/?tag=Typescript" class="ed-tag">Typescript</a><!--]--></div><h2><a href="/posts/vue-basic-learning" class="">Vue3 经常用到的一些小技巧</a></h2><p class="ed-excerpt">本文分享了关于Vue Router + Vite中未设定的路由加载404页面的设置方法，以及在Typescript中引入Vue组件时找不到定义的解决方法。还介绍了如何解决找不到Window定义的问题，以及一个不使用事件总线的偷懒方法。此外，还介绍了使用Highlight.js进行代码高亮的安装和使用方法。最后，提供了一个解决组件不铺满窗口的CSS样式。</p><!----></div><span class="ed-row-arrow" aria-hidden="true">↗</span></article></li><!--]--></ul></section></main><!--]--></div><footer class="ed-footer"><div><span>© 2016 · </span>Boyang Yu/Okysu<p>为吾为枝，余地三尺，以己为棋，胜天半子。</p></div><div class="ed-footer-links"><a href="https://beian.miit.gov.cn/" rel="noreferrer">苏ICP备2021011781号</a><a href="https://valaxy.site">Valaxy</a><span aria-hidden="true">/</span><span>Editorial</span></div></footer></div><!--]--></div><script>window.__INITIAL_STATE__='{"pinia":{"app":{"showLoading":true},"routerStore":{}}}'</script><script type="application/ld+json" data-hid="schema-org-graph">{"@context":"https://schema.org","@graph":[{"@id":"https://blog.yby.zone/#identity","@type":"Person","name":"Boyang Yu/Okysu","url":"https://blog.yby.zone/","image":{"@id":"https://blog.yby.zone/#/schema/image/1"},"sameAs":["/atom.xml","https://github.com/Okysu","mailto:yby@ecanse.com","https://mvp.microsoft.com/zh-CN/studentambassadors/profile/1cba6b30-3e38-4959-9863-c8cd7ee9e133"]},{"@id":"https://blog.yby.zone/#website","@type":"WebSite","dateModified":"2023-09-01T07:23:03.000Z","datePublished":"2023-09-01T07:23:03.000Z","inLanguage":"zh-CN","url":"https://blog.yby.zone/","publisher":{"@id":"https://blog.yby.zone/#identity"}},{"@id":"https://blog.yby.zone/categories#webpage","@type":"WebPage","description":"为吾为枝，余地三尺，以己为棋，胜天半子。","url":"https://blog.yby.zone/categories","isPartOf":{"@id":"https://blog.yby.zone/#website"},"potentialAction":[{"@type":"ReadAction","target":["https://blog.yby.zone/categories"]}]},{"@id":"https://blog.yby.zone/#/schema/image/1","@type":"ImageObject","contentUrl":"https://yby-zone.obs.cn-east-3.myhuaweicloud.com/avatar.jpg","inLanguage":"zh-CN","url":"https://yby-zone.obs.cn-east-3.myhuaweicloud.com/avatar.jpg"}]}</script>
+  <div id="valaxy-teleports"></div>
+  
+</body>
+</html>

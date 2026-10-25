@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html  lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon.svg">
+    <script>
+    ;(function () {
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+    </script>
+  <style type="text/css">
+    :root { color-scheme: light dark; --va-c-bg: #fff; }
+    html.dark { --va-c-bg: #000; }
+    html { background-color: var(--va-c-bg); }
+  </style><style id="valaxy-fouc">body{opacity:0!important}</style><style>body{transition:opacity .15s ease}</style><noscript><style>body{opacity:1!important}</style></noscript><script>(function foucGuardScript(maxDuration) {
+  var done = 0;
+  function reveal() {
+    if (done) return;
+    done = 1;
+    var s = document.getElementById("valaxy-fouc");
+    if (s) s.remove();
+  }
+  function check() {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      if (!links[i].sheet) return;
+    }
+    reveal();
+  }
+  new MutationObserver(check).observe(document.head, {
+    childList: true,
+    attributes: true,
+    attributeFilter: ["media", "rel"]
+  });
+  addEventListener("load", reveal);
+  if (maxDuration)
+    setTimeout(reveal, maxDuration);
+})(5000)</script>
+    <script>
+    const locale = localStorage.getItem('valaxy-locale') || 'zh-CN';
+    document.documentElement.setAttribute('lang', locale);
+    </script>
+    
+  <script type="module" crossorigin src="/assets/index.C5ul-Ma4.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime.COiEfhsA.js">
+  <link rel="modulepreload" crossorigin href="/assets/framework.DbXEvxYr.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-i18n.B-v5q_Rk.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-router.D6rIZJub.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/dayjs.CE09CbxT.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/pinia.BsAj_aE7.js">
+  <link rel="modulepreload" crossorigin href="/assets/theme.Cb73jhYh.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/nprogress.DWZypiuu.js">
+  <link rel="stylesheet" crossorigin href="/assets/style.W5v513Ca.css">
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.DMm9YOAa.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Cx986IdX.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Jm3AIy58.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.BMLOBm91.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.B22Nviop.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.Dr94JaBh.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.t53AETM-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.DA0__PXp.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D3wIWfF6.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D5yQViql.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.C195tn64.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.oD1tc_U0.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size3-Regular.CTq5MqoE.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.BF-4gkZK.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff" as="font" type="font/woff" crossorigin>
+<link rel="modulepreload" crossorigin href="/assets/theme.Cb73jhYh.js">
+<link rel="modulepreload" crossorigin href="/assets/2023-summary.DAQu4gLF.js">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2023，是我野火燃烧的土壤。 - 小于同学的异世界</title>
+<meta property="og:locale:alternate" content="en">
+<meta name="description" content="为吾为枝，余地三尺，以己为棋，胜天半子。">
+<meta property="og:description" content="为吾为枝，余地三尺，以己为棋，胜天半子。">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:site_name" content="小于同学的异世界">
+<meta property="og:title" content="2023，是我野火燃烧的土壤。">
+<meta property="og:image" content="https://yby-zone.obs.cn-east-3.myhuaweicloud.com/images/1704031719_UNNQ8W9gxSB.png">
+<meta property="og:image:alt" content="2023，是我野火燃烧的土壤。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://blog.yby.zone/posts/2023-summary">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="为吾为枝，余地三尺，以己为棋，胜天半子。">
+<meta name="twitter:image" content="https://yby-zone.obs.cn-east-3.myhuaweicloud.com/images/1704031719_UNNQ8W9gxSB.png">
+<meta name="twitter:title" content="2023，是我野火燃烧的土壤。">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="generator" content="Valaxy 1.2.0">
+<link rel="canonical" href="https://blog.yby.zone/posts/2023-summary">
+</head>
+<body>
+  <div id="app"><!--[--><!--[--><!----><!--[--><!--]--><!----><!--]--><div class="ed-shell"><a class="ed-skip" href="#main-content">跳至正文</a><header class="ed-nav"><a href="/" class="ed-wordmark" aria-label="返回首页">Okysu<span aria-hidden="true">.</span></a><button class="ed-menu-button" aria-controls="editorial-navigation" aria-expanded="false">菜单</button><nav id="editorial-navigation" class="ed-nav-links" aria-label="主导航"><!--[--><a href="/" class=""><!--[-->首页<!--]--></a><a href="/archives/" class=""><!--[-->文章<!--]--></a><a href="/tags/" class=""><!--[-->标签<!--]--></a><a href="/categories/" class=""><!--[-->分类<!--]--></a><a href="/links/" class=""><!--[-->友链<!--]--></a><a href="/about/" class=""><!--[-->关于<!--]--></a><!--]--></nav><button class="ed-appearance" aria-label="切换浅色与深色外观" title="切换外观"><svg class="ed-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.9 13.2A9 9 0 0 1 10.8 3.1 9 9 0 1 0 20.9 13.2Z"></path></svg><svg class="ed-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"></path></svg></button></header><div id="main-content" tabindex="-1" class="ed-content"><!--[--><main><article class="ed-article ed-article-post"><header class="ed-article-header"><a href="/archives/" class="ed-back"> ← 所有文章 </a><div class="ed-article-meta"><time datetime="2023-12-31" class="ed-date">2023-12-31</time><!--[--><a href="/tags/?tag=2023" class="">2023</a><a href="/tags/?tag=2024" class="">2024</a><a href="/tags/?tag=%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93" class="">年度总结</a><!--]--><!----></div><h1>2023，是我野火燃烧的土壤。</h1><!----></header><div class="ed-with-outline ed-reading-grid"><div class="ed-reading"><!--[--><div class="ed-main"><!--[--><!--[--><!--]--><!--[--><!--]--><!--[--><!--[--><!----><!--]--><div class="markdown-body"><article class="markdown-body"><!--[--><!--[--><p>2023年，似乎是关于“重启”的一年。结束了长达3年的疫情。我们摘下口罩，呼吸大口空气，终于有机会再次出发，踏遍山野，似乎一切都回到了疫情之前平静祥和的时光。有序的时间之上是我们参差的生活，变化与静止、清晰与混沌、平常与无常。回望那些或是黯淡又或是明亮的日子，我该如何总结这纷繁的一年呢？</p><p>这一年，对我来说是能量爆炸的一年。我终于懂得自爱，我开始欣赏自己，开始注意自己仪表，也开始“臭美”——买了点护肤品。我不再认为我的形象有多么糟糕，我不再幻想，不给自己很高的要求给自己特别大的压力，我不再执着于过去，不会半夜坐起懊悔自己做了多差的决定，我现在热爱生活、热爱自己、期许未来、放下过去。</p><p>我开始探索我自己的更多可能。在暑期的尾巴，创建了第一个线上直播教学大家使用<code>Typescript</code>创建HTTP服务器来使用<code>Azure OpenAI</code>的服务，当时我只想完成我微软学生大使从<code>Alpha</code>晋升到<code>Beta</code>的任务。没想到，我居然还有机会在更大的舞台，和厉害的老师一起合作教学<code>C#</code>，我在Microsoft Reactor平台，和C#领域的MVP老师梁桐铭梁老师一起教大家基础的C#语法知识，在B站，在CSDN，在思否，他们都可以看到我！也是这次机会，让我重新了认识这富有潜力的编程语言——C#。</p><figure><img src="https://yby-zone.obs.cn-east-3.myhuaweicloud.com/images/1704031719_UNNQ8W9gxSB.png" alt="1694142099528" loading="lazy" decoding="async" fetchpriority="low"></figure><figure><img src="https://yby-zone.obs.cn-east-3.myhuaweicloud.com/images/1704031741_WrSk0DSt8lF.png" alt="Cache_-5ff1f5877930902e" loading="lazy" decoding="async" fetchpriority="low"></figure><p>没想到，我会不怯场。我没有吞吞吐吐，没有演出事故，十分顺利，圆满完成。我也并非是不太上镜。</p><figure><img src="https://yby-zone.obs.cn-east-3.myhuaweicloud.com/images/1704031909_6pEGU3Ei2tO.jpg" alt="Image_1697162659381" loading="lazy" decoding="async" fetchpriority="low"></figure><p>2023年， 我去了镇江，去了扬州，去了日照。不过这些都不是我一个人，我终于有勇气，一个人踏出我自己的舒适区。只身一人前往上海参加活动，去见识更广阔的世界。</p><figure><img src="https://yby-zone.obs.cn-east-3.myhuaweicloud.com/images/1704032087_mPpcirAgpjH.jpg" alt="7fdc492a4e29705b350b65874d92da29" loading="lazy" decoding="async" fetchpriority="low"></figure><p>去GitHub开源开发者大会，终于见到了永远笑容的卢建晖老师。说了句蹩脚的英语和GitHub的副总裁强行混了一个脸熟。</p><figure><img src="https://yby-zone.obs.cn-east-3.myhuaweicloud.com/images/1704032322_3zEh5qEEwlh.jpg" alt="be3ed153c507c9d0cc2f3eef1d643087" loading="lazy" decoding="async" fetchpriority="low"></figure><p>在这AI技术爆炸的一年，感谢我学校实验室老师沈老师和周老师，也感谢温杰老师，让我有机会在一家AI企业实习，我也正式向我的前后端全栈开发生活告别，从此进入AI的世界。有些时候，你需要把所有东西给烧掉，然后重新开始。燃烧后的土壤更加肥沃。人生也是这样，我重新开始，我找到出路。</p><p>这一年有人斥我太过张狂，有人说我做着荒诞的幻想，还有人笑我快去流水线的工厂。他们想要磨灭我对未来的渴望，以及我笑容满面的脸庞。外界的言语差点让我受伤，丢下了青春的行囊，丧失了眼里的光。我似乎也成为不了掌舵自己的船长。我那么平凡，没有帅气的脸庞，不会悦耳的歌唱，注定还是让人嗤笑一场。</p><p>可是我看见，鼓励也在慢慢增长，不少人也给我期许和欣赏。我似乎也可能在闪着微弱的光。谢谢你们的支持，让我有勇气实现人生第一步的理想，让我也可以闪闪发光，让我体会了被爱小孩的模样。</p><p>感谢2023年的肥沃土壤，我会在更多地方写下我的名字。</p><figure><img src="https://yby-zone.obs.cn-east-3.myhuaweicloud.com/images/1704032654_2kTVzIkqwMi.jpg" alt="c3aac05393a9c3059571f193769ec40f" loading="lazy" decoding="async" fetchpriority="low"></figure><!--]--><!--[--><!--]--><!--]--><!----><!----></article></div><!--[--><!--]--><!--]--><!--[--><!--]--><!--[--><!--]--><!--[--><!--]--><!----><!--[--><!--]--><!--]--><!--[--><!--]--></div><!--]--></div><aside class="ed-aside"><!----></aside></div><nav class="ed-adjacent" aria-label="相邻文章"><a href="/posts/2022-summary" class=""><span>上一篇</span>2022，只不过是一串整数型常量而已。</a><a href="/posts/2024-middle-year" class=""><span>下一篇</span>7月，我失败，也失败。</a></nav></article></main><!--]--></div><footer class="ed-footer"><div><span>© 2016 · </span>Boyang Yu/Okysu<p>为吾为枝，余地三尺，以己为棋，胜天半子。</p></div><div class="ed-footer-links"><a href="https://beian.miit.gov.cn/" rel="noreferrer">苏ICP备2021011781号</a><a href="https://valaxy.site">Valaxy</a><span aria-hidden="true">/</span><span>Editorial</span></div></footer></div><!--]--></div><script>window.__INITIAL_STATE__='{"pinia":{"app":{"showLoading":true},"routerStore":{}}}'</script><script type="application/ld+json" data-hid="schema-org-graph">{"@context":"https://schema.org","@graph":[{"@id":"https://blog.yby.zone/#identity","@type":"Person","name":"Boyang Yu/Okysu","url":"https://blog.yby.zone/","image":{"@id":"https://blog.yby.zone/#/schema/image/1"},"sameAs":["/atom.xml","https://github.com/Okysu","mailto:yby@ecanse.com","https://mvp.microsoft.com/zh-CN/studentambassadors/profile/1cba6b30-3e38-4959-9863-c8cd7ee9e133"]},{"@id":"https://blog.yby.zone/#website","@type":"WebSite","dateModified":"2023-12-31T14:32:10.000Z","datePublished":"2023-12-31T14:32:10.000Z","inLanguage":"zh-CN","name":"2023，是我野火燃烧的土壤。","url":"https://blog.yby.zone/","publisher":{"@id":"https://blog.yby.zone/#identity"}},{"@id":"https://blog.yby.zone/posts/2023-summary#webpage","@type":"WebPage","description":"为吾为枝，余地三尺，以己为棋，胜天半子。","name":"2023，是我野火燃烧的土壤。","url":"https://blog.yby.zone/posts/2023-summary","isPartOf":{"@id":"https://blog.yby.zone/#website"},"potentialAction":[{"@type":"ReadAction","target":["https://blog.yby.zone/posts/2023-summary"]}]},{"@id":"https://blog.yby.zone/#/schema/image/1","@type":"ImageObject","contentUrl":"https://yby-zone.obs.cn-east-3.myhuaweicloud.com/avatar.jpg","inLanguage":"zh-CN","url":"https://yby-zone.obs.cn-east-3.myhuaweicloud.com/avatar.jpg"}]}</script>
+  <div id="valaxy-teleports"></div>
+  
+</body>
+</html>
