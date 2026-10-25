@@ -16,6 +16,8 @@ export interface ThemeConfig extends DefaultTheme.Config {
   homePostCount: number
   /** Show the article outline (frontmatter outline: false also works). */
   showOutline: boolean
+  /** Show saved AI-generated excerpts above the article body. */
+  showAiSummary: boolean
   nav: NavItem[]
   footer: {
     since?: number

@@ -76,4 +76,4 @@ docker build . -t okysu-blog
 
 ## 同步主题源码到博客
 
-修改 theme/ 后，在根目录执行 pnpm theme:sync，再运行 pnpm build。此命令重新打包主题、复制归档到 vendor/，并更新当前博客依赖与锁文件；提交源码时一并提交 vendor/ 归档和锁文件。
+修改 theme/ 后，先提升 theme/package.json 的补丁版本，避免 pnpm 复用同名归档缓存；然后在根目录执行 pnpm theme:sync，再运行 pnpm build。此命令重新打包主题、复制归档到 vendor/，并更新当前博客依赖与锁文件；提交源码时一并提交 vendor/ 归档和锁文件。

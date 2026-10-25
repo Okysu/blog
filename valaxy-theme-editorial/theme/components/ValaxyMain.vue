@@ -1,9 +1,14 @@
 <script setup lang="ts">
 import type { PageData, Post } from 'valaxy'
 import { useSiteConfig } from 'valaxy'
+import { computed } from 'vue'
+import { aiSummary } from '../client/posts'
+import { useThemeConfig } from '../composables'
 
-defineProps<{ frontmatter: Post, data?: PageData }>()
+const props = defineProps<{ frontmatter: Post, data?: PageData }>()
 const site = useSiteConfig()
+const theme = useThemeConfig()
+const summary = computed(() => theme.value.showAiSummary ? aiSummary(props.frontmatter) : '')
 </script>
 
 <template>
@@ -12,6 +17,9 @@ const site = useSiteConfig()
       <slot name="main-header" />
       <slot name="main-header-after" />
       <slot name="main-content">
+        <slot name="ai-summary">
+          <EditorialAiSummary v-if="summary" :summary="summary" />
+        </slot>
         <div class="markdown-body">
           <ValaxyMd :frontmatter="frontmatter">
             <slot name="main-content-md" />

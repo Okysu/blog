@@ -9,7 +9,7 @@
 尚未发布 npm；在本工作区执行 `pnpm pack:theme` 得到归档，再在博客中安装：
 
 ```sh
-pnpm add ./valaxy-theme-editorial-0.1.0.tgz valaxy@1.2.0 vue@^3.5.41 vue-router@^5.0.3
+pnpm add ./valaxy-theme-editorial-0.1.1.tgz valaxy@1.2.0 vue@^3.5.41 vue-router@^5.0.3
 ```
 
 `valaxy.config.ts`：
@@ -102,3 +102,13 @@ Remove-Item Env:BASE_URL
 ## 友链
 
 EditorialFriendList 接收 links 数组，字段为 url、name、blog、desc、avatar；可选 random 在客户端挂载后打乱顺序，服务端先输出稳定的完整列表。具体友链数据由消费者提供，例如在 components/ 中导入 public/l.json 并传给组件。头像延迟加载，失效时回退到首字。
+
+## AI 摘要与渐进加载
+
+showAiSummary 默认为 true。frontmatter 同时包含 excerpt_type: ai 和已保存的 excerpt 时，阅读页会在正文前显示 AI 摘要；没有保存摘要的文章不会被普通自动截取冒充。可通过 ai-summary 插槽定制区域。
+
+所有 Markdown 图片在构建时带上 loading="lazy"、decoding="async" 和 fetchpriority="low"。页面路由不等待媒体请求；友链先输出完整文字与固定尺寸首字占位，页面绘制后才通过 IntersectionObserver 请求临近可视区的头像，失败时保留首字。不开启图片或 JavaScript 时，友链文字和链接依然可用。
+
+RSS、JSON、PDF 等文件链接使用原生 a 标签，支持非根 base；普通文章仍使用 Vue Router 导航。
+
+运行 pnpm smoke:consumer 后，可以用 node scripts/serve-media-check.mjs 启动临时验证站点；它故意把头像响应延迟 20 秒，用于检查页面文字和导航是否先显示。

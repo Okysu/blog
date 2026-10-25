@@ -23,7 +23,7 @@
     "gray-matter": "^4.0.3",
     "valaxy": "1.2.0",
     "valaxy-addon-mermaid": "0.1.1",
-    "valaxy-theme-editorial": "file:vendor/valaxy-theme-editorial-0.1.0.tgz"
+    "valaxy-theme-editorial": "file:vendor/valaxy-theme-editorial-0.1.1.tgz"
   },
   "devDependencies": {
     "@types/node": "^24.0.0",

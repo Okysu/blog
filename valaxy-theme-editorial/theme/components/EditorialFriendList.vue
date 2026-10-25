@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { onMounted, ref, watch } from 'vue'
+import EditorialAvatar from './EditorialAvatar.vue'
 
 interface FriendLink {
   url: string
@@ -24,16 +25,13 @@ onMounted(() => {
   }
   entries.value = result
 })
-function hideBrokenAvatar(event: Event) {
-  (event.target as HTMLImageElement).hidden = true
-}
 </script>
 
 <template>
   <ul v-if="entries.length" class="ed-friends">
     <li v-for="friend in entries" :key="friend.url">
       <a :href="friend.url" target="_blank" rel="noopener noreferrer" class="ed-friend">
-        <span class="ed-friend-avatar" aria-hidden="true">{{ friend.name.slice(0, 1) }}<img v-if="friend.avatar" :src="friend.avatar" alt="" loading="lazy" decoding="async" @error="hideBrokenAvatar"></span>
+        <EditorialAvatar :name="friend.name" :src="friend.avatar" />
         <span class="ed-friend-copy"><strong>{{ friend.blog || friend.name }}</strong><span v-if="friend.blog && friend.blog !== friend.name" class="ed-friend-name">{{ friend.name }}</span><span v-if="friend.desc" class="ed-friend-description">{{ friend.desc }}</span></span>
         <span class="ed-friend-arrow" aria-hidden="true">↗</span>
       </a>

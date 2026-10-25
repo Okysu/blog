@@ -10,3 +10,8 @@ export function postTags(value: unknown): string[] {
     return value.filter((tag): tag is string => typeof tag === 'string')
   return typeof value === 'string' ? [value] : []
 }
+
+/** Only a saved AI excerpt is an AI summary; auto-truncated prose is not. */
+export function aiSummary(frontmatter: { excerpt_type?: unknown, excerpt?: unknown }): string {
+  return frontmatter.excerpt_type === 'ai' ? plainText(frontmatter.excerpt) : ''
+}
