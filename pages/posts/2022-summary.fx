@@ -13,7 +13,8 @@ excerpt: >-
   20岁的我，对自己的能力不足感到自卑和遗憾。时光如白驹过隙，让我回忆起18岁时的心境，问爸爸：“你成年时焦虑吗？”看着同龄人的才智、年长者的成就和小孩子的创造力，我发现自己一无所长。我幻想过改变世界，但现实中的困境让我困惑不解。在自我批评的同时，我也意识到人生不完美，应接受自己。我不再追求完美，而是感激生命中所经历的人和事。如今20岁的我，怀着新的希望启程，准备掌握属于自己的玫瑰色生活。我并不知道人生终点在何处，但我相信，在剧终后我会感谢所有变量和关键人物。
 ---
 
-> 我生来就是高山， 而不是溪流。我欲于群峰之巅，俯视平静的沟壑。我生来就是人杰而非草芥。我站在伟人之肩，藐视卑微的懦夫。
+>
+	我生来就是高山， 而不是溪流。我欲于群峰之巅，俯视平静的沟壑。我生来就是人杰而非草芥。我站在伟人之肩，藐视卑微的懦夫。
 
 时光如同白驹过隙，一霎那时间就送别了2022，迎来2023。没错，我即将20岁了，是大人了。但我依然像那年高三放学回家坐在父亲摩托车后面的18岁的自己一样。我无比清楚地记得，在当时我问了我爸一句话——「你成年的时候你焦虑吗？」。
 
@@ -27,8 +28,8 @@ excerpt: >-
 
 我不知道到那时骨骼解算的终点在何处，但我想，当我的剧本落下帷幕时，我一定还会回忆并感谢此间登场的变量与关键人物，你们。
 
-![微软学生大使礼物](https://yby-zone.obs.cn-east-3.myhuaweicloud.com/images/1673001914_kXWwvk9MlPx.png)
+![https://yby-zone.obs.cn-east-3.myhuaweicloud.com/images/1673001914_kXWwvk9MlPx.png|微软学生大使礼物]
 
-![微软学生大使礼物](https://yby-zone.obs.cn-east-3.myhuaweicloud.com/images/1673001934_jdtwTvxvVPa.png)
+![https://yby-zone.obs.cn-east-3.myhuaweicloud.com/images/1673001934_jdtwTvxvVPa.png|微软学生大使礼物]
 
-![我自己的框架](https://yby-zone.obs.cn-east-3.myhuaweicloud.com/images/1673002169_rnxVBPyjaNt.png)
+![https://yby-zone.obs.cn-east-3.myhuaweicloud.com/images/1673002169_rnxVBPyjaNt.png|我自己的框架]

@@ -2,10 +2,17 @@ import type { ThemeConfig } from 'valaxy-theme-editorial'
 import { defineValaxyConfig } from 'valaxy'
 import { addonMermaid } from 'valaxy-addon-mermaid'
 import { startAISummary } from './autoSummary'
+import { createFluxMarkLoader, createFluxMarkVitePlugin } from './fluxmarkCompiler'
+
+const useFluxLoader = process.env.FLUXMARK_MATERIALIZED !== '1'
 
 export default defineValaxyConfig<ThemeConfig>({
   theme: 'editorial',
   addons: [addonMermaid()],
+  loaders: useFluxLoader ? [createFluxMarkLoader()] : [],
+  vite: {
+    plugins: useFluxLoader ? [createFluxMarkVitePlugin()] : [],
+  },
   themeConfig: {
     wordmark: 'Okysu',
     eyebrow: 'OKYSU / 随笔与记录',

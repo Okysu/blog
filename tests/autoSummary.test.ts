@@ -63,16 +63,20 @@ test('summarizes nested Markdown while preserving existing excerpts and drafts',
   try {
     await mkdir(path.join(dir, 'nested'))
     await writeFile(path.join(dir, 'nested/new.md'), '---\ntitle: 新文章\nexcerpt_type: ai\n---\n\n原始内容。')
+    await writeFile(path.join(dir, 'nested/flux.fx'), '---\ntitle: Flux 文章\nexcerpt_type: ai\n---\n\n# 标题\n\tFlux 内容。')
     const existing = '---\nexcerpt_type: ai\nexcerpt: 手动摘要\n---\n不要覆盖。'
     const draft = '---\nexcerpt_type: ai\ndraft: true\n---\n草稿。'
     await writeFile(path.join(dir, 'existing.md'), existing)
     await writeFile(path.join(dir, 'draft.md'), draft)
     await writeFile(path.join(dir, 'asset.txt'), 'not markdown')
     await startAISummary(dir)
-    assert.equal(calls, 1)
+    assert.equal(calls, 2)
     const result = matter(await readFile(path.join(dir, 'nested/new.md'), 'utf8'))
     assert.equal(result.data.excerpt, '生成的摘要')
     assert.equal(result.content.trim(), '原始内容。')
+    const fxResult = matter(await readFile(path.join(dir, 'nested/flux.fx'), 'utf8'))
+    assert.equal(fxResult.data.excerpt, '生成的摘要')
+    assert.equal(fxResult.content.trim(), '# 标题\n\tFlux 内容。')
     assert.equal(await readFile(path.join(dir, 'existing.md'), 'utf8'), existing)
     assert.equal(await readFile(path.join(dir, 'draft.md'), 'utf8'), draft)
   }

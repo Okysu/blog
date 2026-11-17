@@ -50,12 +50,12 @@ export async function generateAutoSummary(content: string, options: SummaryOptio
   return excerpt.replace(/\s*\n\s*/g, ' ')
 }
 
-async function* markdownFiles(directory: string): AsyncGenerator<string> {
+async function* articleFiles(directory: string): AsyncGenerator<string> {
   for (const entry of await fs.readdir(directory, { withFileTypes: true })) {
     const file = path.join(directory, entry.name)
     if (entry.isDirectory())
-      yield* markdownFiles(file)
-    else if (entry.isFile() && /\.md$/i.test(entry.name))
+      yield* articleFiles(file)
+    else if (entry.isFile() && /\.(?:md|fx)$/i.test(entry.name))
       yield file
   }
 }
@@ -68,7 +68,7 @@ export async function startAISummary(postsDir = path.join(process.cwd(), 'pages/
     return
   }
   // Process sequentially instead of sending every article at once.
-  for await (const file of markdownFiles(postsDir)) {
+  for await (const file of articleFiles(postsDir)) {
     const original = await fs.readFile(file, 'utf8')
     const { data, content } = matter(original)
     if (data.excerpt || data.excerpt_type !== 'ai' || data.draft)

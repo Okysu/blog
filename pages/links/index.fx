@@ -6,4 +6,5 @@ links: /l.json
 random: true
 ---
 
-<EditorialFriends />
+!html
+	<EditorialFriends />
