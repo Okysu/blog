@@ -1,0 +1,74 @@
+[
+    {
+        "url":"https://owomoe.net/",
+        "avatar":"https://cdn.jsdelivr.net/gh/AyagawaSeirin/Assets/img/logo.jpg",
+        "name":"皮皮凛",
+        "blog":"皮皮凛の小窝",
+        "desc":"永远相信美好的事情即将发生~",
+        "color":"#90A6BC"
+    },
+    {
+        "url":"https://www.yunyoujun.cn/",
+        "avatar":"https://www.yunyoujun.cn/images/avatar.jpg",
+        "name":"云游君",
+        "blog":"云游君的小站",
+        "desc":"All at sea.",
+        "color":"#881B12"
+    },
+    {
+        "url":"http://blog.suki.house/",
+        "avatar":"https://source.yby.zone/g.jfif",
+        "name":"甘乐樱KanraSAKURA",
+        "blog":"秋风茶屋",
+        "desc":"以秋风之名 ~ 凛子的个人博客.",
+        "color":"#EE82EE"
+    },
+    {
+        "url":"https://konfan.cn/",
+        "avatar":"https://konfan.cn/img/favicon.png",
+        "name":"婲样女孩",
+        "blog":"婲样女孩的小站",
+        "desc":"ε=(´ο｀*)))唉..好累啊",
+        "color":"#32AB12"
+    },
+    {
+        "url":"https://akagiyui.com/",
+        "avatar":"https://source.yby.zone/ddi.jpg",
+        "name":"赤城的部落格",
+        "blog":"赤城的部落格",
+        "desc":"CN AkagiYui 赤城结衣 · 软工专业.",
+        "color":"#4169E1"
+    },
+    {
+        "url":"https://www.15110y.top/",
+        "avatar":"https://source.yby.zone/110.png",
+        "name":"Aлексей",
+        "blog":"Aлексей",
+        "desc":"15110y · 无锡 · 微电子科学与工程",
+        "color":"#DAA520"
+    },
+    {
+        "url":"https://ayk.moe/",
+        "avatar":"https://ayk.moe/img/avatar.jpg",
+        "name":"Kiritani Ayaka",
+        "blog":"Ayakaの部屋",
+        "desc":"桐谷彩花（きりたに あやか / KiritaniAyaka）",
+        "color":"#DF716E"
+    },
+    {
+        "url":"https://www.ucu520.top/",
+        "avatar":"https://thirdqq.qlogo.cn/g?b=oidb&k=WotrHzDao15gPptS3pot9Q&kti=ZCHfqQAAAAA&s=100&t=1555420328",
+        "name":"UcU",
+        "blog":"开心Ucu",
+        "desc":"开心Ucu",
+        "color":"#F27D6E"
+    },
+    {
+        "url":"https://www.liveout.cn/",
+        "avatar":"https://yy.liveout.cn/photo/photo2.jpg",
+        "name":"Echo小窝",
+        "blog":"Echo小窝",
+        "desc":"···重度精神内耗患者···",
+        "color":"#87CEFA"
+    }
+]
